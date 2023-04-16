@@ -9,6 +9,11 @@ body {
   align-items: center;
 }
 
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -33,10 +38,21 @@ body {
 }
 
 button {
+  margin: 5px;
   padding: 10px;
   padding-left: 60px;
   padding-right: 60px;
   font-size: 14px;
+  border: none;
+  border-radius: 5px;
+}
+
+button:focus {
+  outline: none;
+}
+
+#playbuttons button:focus {
+  outline: auto;
 }
 
 #infotext {
@@ -57,8 +73,14 @@ button {
 }
 
 #country-input {
-  width: 600px;
+  background-color: #1a1a1a;
+  border: none;
+  border-bottom: 1px solid #888;
+  color: #fff;
+  font-size: 24px;
   padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 #country-guess {
@@ -78,4 +100,14 @@ button {
 
 #submit-guess:hover {
   background-color: #888;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
 }

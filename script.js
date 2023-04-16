@@ -10,6 +10,7 @@ document.getElementById("start-button").addEventListener("click", startGame);
 document.getElementById("reset-button").addEventListener("click", resetGame);
 document.getElementById("country-input").addEventListener("change", checkGuess);
 document.getElementById("skip-button").addEventListener("click", skipFlag);
+document.getElementById("start-button").focus();
 
 // Fetch flag data from flags.json
 fetch("flags.json")
@@ -26,11 +27,13 @@ function startGame() {
   updateCorrectGuesses();
   updateIncorrectGuesses();
   pickNewFlag();
-  document.getElementById("start-button").disabled = true;
+  document.getElementById("start-button").style.display = "none";
   document.getElementById("flag-container").style.display = "flex";
   startTimer();
   document.getElementById("playbuttons").style.display = "flex";
   document.getElementById("infotext").style.display = "block";
+  document.getElementById("country-input").focus();
+  document.getElementById("prevanswer").innerHTML = "";
 }
 
 function resetGame() {
@@ -44,11 +47,12 @@ function resetGame() {
   updateCorrectGuesses();
   updateIncorrectGuesses();
   document.querySelector(".flag-img").src = "";
+  document.getElementById("country-input").style.borderBottomColor = "#888";
   document.getElementById("country-input").value = "";
-  document.getElementById("start-button").disabled = false;
+  document.getElementById("start-button").style.display = "flex";
   document.getElementById("flag-container").style.display = "none";
   stopTimer();
-  input.style.backgroundColor = "#ffffff";
+  document.getElementById("start-button").focus();
 }
 
 function startTimer() {
@@ -69,8 +73,14 @@ function updateIncorrectGuesses() {
 function skipFlag() {
   if (remainingFlags.length > 0) {
     incorrectGuesses++;
+    document.getElementById("country-input").style.borderBottomColor = "#888";
+    document.getElementById("prevanswer").innerHTML =
+      "The previous flag was: " + currentFlag.country;
+    document.getElementById("prevanswer").style.color = "#d95d55";
     updateIncorrectGuesses();
     pickNewFlag();
+    document.getElementById("country-input").value = "";
+    document.getElementById("country-input").focus();
   }
 }
 
@@ -90,7 +100,10 @@ function checkGuess() {
     correctGuesses++;
     updateCorrectGuesses();
     input.value = "";
-    input.style.backgroundColor = "white";
+    input.style.borderBottomColor = "#888";
+    document.getElementById("prevanswer").innerHTML =
+      "Correct, the flag was: " + currentFlag.country;
+    document.getElementById("prevanswer").style.color = "#67e674";
     if (remainingFlags.length > 0) {
       pickNewFlag();
     } else {
@@ -100,11 +113,11 @@ function checkGuess() {
       );
       document.getElementById("playbuttons").style.display = "none";
       document.getElementById("infotext").style.display = "none";
-      document.getElementById("start-button").disabled = false;
+      document.getElementById("start-button").style.display = "flex";
       document.getElementById("flag-container").style.display = "none";
     }
   } else {
-    input.style.backgroundColor = "#ffabab";
+    input.style.borderBottomColor = "#cf2929";
   }
 }
 

@@ -77,7 +77,7 @@
   {
     "country": "Belarus",
     "imageUrl": "images/BY.png",
-    "alternatives": ["Belarussia"]
+    "alternatives": []
   },
   {
     "country": "Belgium",
@@ -162,7 +162,7 @@
   {
     "country": "Central African Republic",
     "imageUrl": "images/CF.png",
-    "alternatives": []
+    "alternatives": ["CAR", "car"]
   },
   {
     "country": "Chad",
@@ -347,7 +347,7 @@
   {
     "country": "Guinea-Bissau",
     "imageUrl": "images/GW.png",
-    "alternatives": []
+    "alternatives": ["Guinea Bissau", "guinea bissau", "guinea", "Guinea"]
   },
   {
     "country": "Guyana",
@@ -722,7 +722,7 @@
   {
     "country": "Saint Lucia",
     "imageUrl": "images/LC.png",
-    "alternatives": []
+    "alternatives": ["St Lucia", "st lucia"]
   },
   {
     "country": "Saint Vincent and the Grenadines",
@@ -873,7 +873,7 @@
   {
     "country": "Timor-Leste",
     "imageUrl": "images/TL.png",
-    "alternatives": []
+    "alternatives": ["Timor Leste", "Timor"]
   },
   {
     "country": "Togo",
@@ -955,7 +955,7 @@
   {
     "country": "Vatican City",
     "imageUrl": "images/VA.png",
-    "alternatives": ["Holy See", "Vatican"]
+    "alternatives": ["Holy See", "Vatican", "vatican", "holy see"]
   },
   {
     "country": "Venezuela",
