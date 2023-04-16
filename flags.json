@@ -1,0 +1,985 @@
+[
+  {
+    "country": "Afghanistan",
+    "imageUrl": "images/AF.png",
+    "alternatives": []
+  },
+  {
+    "country": "Albania",
+    "imageUrl": "images/AL.png",
+    "alternatives": []
+  },
+  {
+    "country": "Algeria",
+    "imageUrl": "images/DZ.png",
+    "alternatives": []
+  },
+  {
+    "country": "Andorra",
+    "imageUrl": "images/AD.png",
+    "alternatives": []
+  },
+  {
+    "country": "Angola",
+    "imageUrl": "images/AO.png",
+    "alternatives": []
+  },
+  {
+    "country": "Antigua and Barbuda",
+    "imageUrl": "images/AG.png",
+    "alternatives": ["Antigua", "Barbuda"]
+  },
+  {
+    "country": "Argentina",
+    "imageUrl": "images/AR.png",
+    "alternatives": []
+  },
+  {
+    "country": "Armenia",
+    "imageUrl": "images/AM.png",
+    "alternatives": []
+  },
+  {
+    "country": "Australia",
+    "imageUrl": "images/AU.png",
+    "alternatives": []
+  },
+  {
+    "country": "Austria",
+    "imageUrl": "images/AT.png",
+    "alternatives": []
+  },
+  {
+    "country": "Azerbaijan",
+    "imageUrl": "images/AZ.png",
+    "alternatives": []
+  },
+  {
+    "country": "Bahamas",
+    "imageUrl": "images/BS.png",
+    "alternatives": []
+  },
+  {
+    "country": "Bahrain",
+    "imageUrl": "images/BH.png",
+    "alternatives": []
+  },
+  {
+    "country": "Bangladesh",
+    "imageUrl": "images/BD.png",
+    "alternatives": []
+  },
+  {
+    "country": "Barbados",
+    "imageUrl": "images/BB.png",
+    "alternatives": []
+  },
+  {
+    "country": "Belarus",
+    "imageUrl": "images/BY.png",
+    "alternatives": ["Belarussia"]
+  },
+  {
+    "country": "Belgium",
+    "imageUrl": "images/BE.png",
+    "alternatives": []
+  },
+  {
+    "country": "Belize",
+    "imageUrl": "images/BZ.png",
+    "alternatives": []
+  },
+  {
+    "country": "Benin",
+    "imageUrl": "images/BJ.png",
+    "alternatives": []
+  },
+  {
+    "country": "Bhutan",
+    "imageUrl": "images/BT.png",
+    "alternatives": []
+  },
+  {
+    "country": "Bolivia",
+    "imageUrl": "images/BO.png",
+    "alternatives": ["Bolivia, Plurinational State of"]
+  },
+  {
+    "country": "Bosnia and Herzegovina",
+    "imageUrl": "images/BA.png",
+    "alternatives": ["Bosnia", "Herzegovina"]
+  },
+  {
+    "country": "Botswana",
+    "imageUrl": "images/BW.png",
+    "alternatives": []
+  },
+  {
+    "country": "Brazil",
+    "imageUrl": "images/BR.png",
+    "alternatives": ["Brasil", "brasil"]
+  },
+  {
+    "country": "Brunei",
+    "imageUrl": "images/BN.png",
+    "alternatives": ["Brunei Darussalam"]
+  },
+  {
+    "country": "Bulgaria",
+    "imageUrl": "images/BG.png",
+    "alternatives": []
+  },
+  {
+    "country": "Burkina Faso",
+    "imageUrl": "images/BF.png",
+    "alternatives": []
+  },
+  {
+    "country": "Burundi",
+    "imageUrl": "images/BI.png",
+    "alternatives": []
+  },
+  {
+    "country": "Cabo Verde",
+    "imageUrl": "images/CV.png",
+    "alternatives": ["Cape Verde"]
+  },
+  {
+    "country": "Cambodia",
+    "imageUrl": "images/KH.png",
+    "alternatives": []
+  },
+  {
+    "country": "Cameroon",
+    "imageUrl": "images/CM.png",
+    "alternatives": []
+  },
+  {
+    "country": "Canada",
+    "imageUrl": "images/CA.png",
+    "alternatives": []
+  },
+  {
+    "country": "Central African Republic",
+    "imageUrl": "images/CF.png",
+    "alternatives": []
+  },
+  {
+    "country": "Chad",
+    "imageUrl": "images/TD.png",
+    "alternatives": []
+  },
+  {
+    "country": "Chile",
+    "imageUrl": "images/CL.png",
+    "alternatives": []
+  },
+  {
+    "country": "China",
+    "imageUrl": "images/CN.png",
+    "alternatives": ["People's Republic of China"]
+  },
+  {
+    "country": "Colombia",
+    "imageUrl": "images/CO.png",
+    "alternatives": []
+  },
+  {
+    "country": "Comoros",
+    "imageUrl": "images/KM.png",
+    "alternatives": []
+  },
+  {
+    "country": "Congo",
+    "imageUrl": "images/CG.png",
+    "alternatives": ["Congo, Republic of the"]
+  },
+  {
+    "country": "Costa Rica",
+    "imageUrl": "images/CR.png",
+    "alternatives": []
+  },
+  {
+    "country": "Croatia",
+    "imageUrl": "images/HR.png",
+    "alternatives": []
+  },
+  {
+    "country": "Cuba",
+    "imageUrl": "images/CU.png",
+    "alternatives": []
+  },
+  {
+    "country": "Cyprus",
+    "imageUrl": "images/CY.png",
+    "alternatives": []
+  },
+  {
+    "country": "Czech Republic",
+    "imageUrl": "images/CZ.png",
+    "alternatives": ["Czechia"]
+  },
+  {
+    "country": "Democratic Republic of the Congo",
+    "imageUrl": "images/CD.png",
+    "alternatives": ["Congo-Kinshasa"]
+  },
+  {
+    "country": "Denmark",
+    "imageUrl": "images/DK.png",
+    "alternatives": []
+  },
+  {
+    "country": "Djibouti",
+    "imageUrl": "images/DJ.png",
+    "alternatives": []
+  },
+  {
+    "country": "Dominica",
+    "imageUrl": "images/DM.png",
+    "alternatives": []
+  },
+  {
+    "country": "Dominican Republic",
+    "imageUrl": "images/DO.png",
+    "alternatives": []
+  },
+  {
+    "country": "Ecuador",
+    "imageUrl": "images/EC.png",
+    "alternatives": []
+  },
+  {
+    "country": "Egypt",
+    "imageUrl": "images/EG.png",
+    "alternatives": []
+  },
+  {
+    "country": "El Salvador",
+    "imageUrl": "images/SV.png",
+    "alternatives": []
+  },
+  {
+    "country": "Equatorial Guinea",
+    "imageUrl": "images/GQ.png",
+    "alternatives": []
+  },
+  {
+    "country": "Eritrea",
+    "imageUrl": "images/ER.png",
+    "alternatives": []
+  },
+  {
+    "country": "Estonia",
+    "imageUrl": "images/EE.png",
+    "alternatives": []
+  },
+  {
+    "country": "Eswatini",
+    "imageUrl": "images/SZ.png",
+    "alternatives": ["Swaziland"]
+  },
+  {
+    "country": "Ethiopia",
+    "imageUrl": "images/ET.png",
+    "alternatives": []
+  },
+  {
+    "country": "Fiji",
+    "imageUrl": "images/FJ.png",
+    "alternatives": []
+  },
+  {
+    "country": "Finland",
+    "imageUrl": "images/FI.png",
+    "alternatives": []
+  },
+  {
+    "country": "France",
+    "imageUrl": "images/FR.png",
+    "alternatives": []
+  },
+  {
+    "country": "Gabon",
+    "imageUrl": "images/GA.png",
+    "alternatives": []
+  },
+  {
+    "country": "Gambia",
+    "imageUrl": "images/GM.png",
+    "alternatives": []
+  },
+  {
+    "country": "Georgia",
+    "imageUrl": "images/GE.png",
+    "alternatives": []
+  },
+  {
+    "country": "Germany",
+    "imageUrl": "images/DE.png",
+    "alternatives": []
+  },
+  {
+    "country": "Ghana",
+    "imageUrl": "images/GH.png",
+    "alternatives": []
+  },
+  {
+    "country": "Greece",
+    "imageUrl": "images/GR.png",
+    "alternatives": []
+  },
+  {
+    "country": "Grenada",
+    "imageUrl": "images/GD.png",
+    "alternatives": []
+  },
+  {
+    "country": "Guatemala",
+    "imageUrl": "images/GT.png",
+    "alternatives": []
+  },
+  {
+    "country": "Guinea",
+    "imageUrl": "images/GN.png",
+    "alternatives": []
+  },
+  {
+    "country": "Guinea-Bissau",
+    "imageUrl": "images/GW.png",
+    "alternatives": []
+  },
+  {
+    "country": "Guyana",
+    "imageUrl": "images/GY.png",
+    "alternatives": []
+  },
+  {
+    "country": "Haiti",
+    "imageUrl": "images/HT.png",
+    "alternatives": []
+  },
+  {
+    "country": "Honduras",
+    "imageUrl": "images/HN.png",
+    "alternatives": []
+  },
+  {
+    "country": "Hungary",
+    "imageUrl": "images/HU.png",
+    "alternatives": []
+  },
+  {
+    "country": "Iceland",
+    "imageUrl": "images/IS.png",
+    "alternatives": []
+  },
+  {
+    "country": "India",
+    "imageUrl": "images/IN.png",
+    "alternatives": []
+  },
+  {
+    "country": "Indonesia",
+    "imageUrl": "images/ID.png",
+    "alternatives": []
+  },
+  {
+    "country": "Iran",
+    "imageUrl": "images/IR.png",
+    "alternatives": []
+  },
+  {
+    "country": "Iraq",
+    "imageUrl": "images/IQ.png",
+    "alternatives": []
+  },
+  {
+    "country": "Ireland",
+    "imageUrl": "images/IE.png",
+    "alternatives": []
+  },
+  {
+    "country": "Israel",
+    "imageUrl": "images/IL.png",
+    "alternatives": []
+  },
+  {
+    "country": "Italy",
+    "imageUrl": "images/IT.png",
+    "alternatives": []
+  },
+  {
+    "country": "Jamaica",
+    "imageUrl": "images/JM.png",
+    "alternatives": []
+  },
+  {
+    "country": "Japan",
+    "imageUrl": "images/JP.png",
+    "alternatives": []
+  },
+  {
+    "country": "Jordan",
+    "imageUrl": "images/JO.png",
+    "alternatives": []
+  },
+  {
+    "country": "Kazakhstan",
+    "imageUrl": "images/KZ.png",
+    "alternatives": []
+  },
+  {
+    "country": "Kenya",
+    "imageUrl": "images/KE.png",
+    "alternatives": []
+  },
+  {
+    "country": "Kiribati",
+    "imageUrl": "images/KI.png",
+    "alternatives": []
+  },
+  {
+    "country": "Kosovo",
+    "imageUrl": "images/XK.png",
+    "alternatives": []
+  },
+  {
+    "country": "Kuwait",
+    "imageUrl": "images/KW.png",
+    "alternatives": []
+  },
+  {
+    "country": "Kyrgyzstan",
+    "imageUrl": "images/KG.png",
+    "alternatives": []
+  },
+  {
+    "country": "Laos",
+    "imageUrl": "images/LA.png",
+    "alternatives": []
+  },
+  {
+    "country": "Latvia",
+    "imageUrl": "images/LV.png",
+    "alternatives": []
+  },
+  {
+    "country": "Lebanon",
+    "imageUrl": "images/LB.png",
+    "alternatives": []
+  },
+  {
+    "country": "Lesotho",
+    "imageUrl": "images/LS.png",
+    "alternatives": []
+  },
+  {
+    "country": "Liberia",
+    "imageUrl": "images/LR.png",
+    "alternatives": []
+  },
+  {
+    "country": "Libya",
+    "imageUrl": "images/LY.png",
+    "alternatives": []
+  },
+  {
+    "country": "Liechtenstein",
+    "imageUrl": "images/LI.png",
+    "alternatives": []
+  },
+  {
+    "country": "Lithuania",
+    "imageUrl": "images/LT.png",
+    "alternatives": []
+  },
+  {
+    "country": "Luxembourg",
+    "imageUrl": "images/LU.png",
+    "alternatives": []
+  },
+  {
+    "country": "Madagascar",
+    "imageUrl": "images/MG.png",
+    "alternatives": []
+  },
+  {
+    "country": "Malawi",
+    "imageUrl": "images/MW.png",
+    "alternatives": []
+  },
+  {
+    "country": "Malaysia",
+    "imageUrl": "images/MY.png",
+    "alternatives": []
+  },
+  {
+    "country": "Maldives",
+    "imageUrl": "images/MV.png",
+    "alternatives": []
+  },
+  {
+    "country": "Mali",
+    "imageUrl": "images/ML.png",
+    "alternatives": []
+  },
+  {
+    "country": "Malta",
+    "imageUrl": "images/MT.png",
+    "alternatives": []
+  },
+  {
+    "country": "Marshall Islands",
+    "imageUrl": "images/MH.png",
+    "alternatives": []
+  },
+  {
+    "country": "Mauritania",
+    "imageUrl": "images/MR.png",
+    "alternatives": []
+  },
+  {
+    "country": "Mauritius",
+    "imageUrl": "images/MU.png",
+    "alternatives": []
+  },
+  {
+    "country": "Mexico",
+    "imageUrl": "images/MX.png",
+    "alternatives": []
+  },
+  {
+    "country": "Micronesia",
+    "imageUrl": "images/FM.png",
+    "alternatives": []
+  },
+  {
+    "country": "Moldova",
+    "imageUrl": "images/MD.png",
+    "alternatives": []
+  },
+  {
+    "country": "Monaco",
+    "imageUrl": "images/MC.png",
+    "alternatives": []
+  },
+  {
+    "country": "Mongolia",
+    "imageUrl": "images/MN.png",
+    "alternatives": []
+  },
+  {
+    "country": "Montenegro",
+    "imageUrl": "images/ME.png",
+    "alternatives": []
+  },
+  {
+    "country": "Morocco",
+    "imageUrl": "images/MA.png",
+    "alternatives": []
+  },
+  {
+    "country": "Mozambique",
+    "imageUrl": "images/MZ.png",
+    "alternatives": []
+  },
+  {
+    "country": "Myanmar",
+    "imageUrl": "images/MM.png",
+    "alternatives": ["Burma"]
+  },
+  {
+    "country": "Namibia",
+    "imageUrl": "images/NA.png",
+    "alternatives": []
+  },
+  {
+    "country": "Nauru",
+    "imageUrl": "images/NR.png",
+    "alternatives": []
+  },
+  {
+    "country": "Nepal",
+    "imageUrl": "images/NP.png",
+    "alternatives": []
+  },
+  {
+    "country": "Netherlands",
+    "imageUrl": "images/NL.png",
+    "alternatives": ["Holland"]
+  },
+  {
+    "country": "New Zealand",
+    "imageUrl": "images/NZ.png",
+    "alternatives": []
+  },
+  {
+    "country": "Nicaragua",
+    "imageUrl": "images/NI.png",
+    "alternatives": []
+  },
+  {
+    "country": "Niger",
+    "imageUrl": "images/NE.png",
+    "alternatives": []
+  },
+  {
+    "country": "Nigeria",
+    "imageUrl": "images/NG.png",
+    "alternatives": []
+  },
+  {
+    "country": "North Korea",
+    "imageUrl": "images/KP.png",
+    "alternatives": ["Democratic People's Republic of Korea", "DPRK"]
+  },
+  {
+    "country": "North Macedonia",
+    "imageUrl": "images/MK.png",
+    "alternatives": ["Macedonia"]
+  },
+  {
+    "country": "Norway",
+    "imageUrl": "images/NO.png",
+    "alternatives": []
+  },
+  {
+    "country": "Oman",
+    "imageUrl": "images/OM.png",
+    "alternatives": []
+  },
+  {
+    "country": "Pakistan",
+    "imageUrl": "images/PK.png",
+    "alternatives": []
+  },
+  {
+    "country": "Palau",
+    "imageUrl": "images/PW.png",
+    "alternatives": []
+  },
+  {
+    "country": "Panama",
+    "imageUrl": "images/PA.png",
+    "alternatives": []
+  },
+  {
+    "country": "Papua New Guinea",
+    "imageUrl": "images/PG.png",
+    "alternatives": ["png"]
+  },
+  {
+    "country": "Paraguay",
+    "imageUrl": "images/PY.png",
+    "alternatives": []
+  },
+  {
+    "country": "Peru",
+    "imageUrl": "images/PE.png",
+    "alternatives": []
+  },
+  {
+    "country": "Philippines",
+    "imageUrl": "images/PH.png",
+    "alternatives": []
+  },
+  {
+    "country": "Poland",
+    "imageUrl": "images/PL.png",
+    "alternatives": []
+  },
+  {
+    "country": "Portugal",
+    "imageUrl": "images/PT.png",
+    "alternatives": []
+  },
+  {
+    "country": "Qatar",
+    "imageUrl": "images/QA.png",
+    "alternatives": []
+  },
+  {
+    "country": "Romania",
+    "imageUrl": "images/RO.png",
+    "alternatives": []
+  },
+  {
+    "country": "Russia",
+    "imageUrl": "images/RU.png",
+    "alternatives": ["Russian Federation"]
+  },
+  {
+    "country": "Rwanda",
+    "imageUrl": "images/RW.png",
+    "alternatives": []
+  },
+  {
+    "country": "Saint Kitts and Nevis",
+    "imageUrl": "images/KN.png",
+    "alternatives": ["Saint Kitts", "Nevis"]
+  },
+  {
+    "country": "Saint Lucia",
+    "imageUrl": "images/LC.png",
+    "alternatives": []
+  },
+  {
+    "country": "Saint Vincent and the Grenadines",
+    "imageUrl": "images/VC.png",
+    "alternatives": [
+      "Saint Vincent",
+      "St Vincent",
+      "St Vincent and the Grenadines",
+      "St Vincent & the Grenadines",
+      "Saint Vincent & the Grenadines"
+    ]
+  },
+  {
+    "country": "Samoa",
+    "imageUrl": "images/WS.png",
+    "alternatives": []
+  },
+  {
+    "country": "San Marino",
+    "imageUrl": "images/SM.png",
+    "alternatives": []
+  },
+  {
+    "country": "Sao Tome and Principe",
+    "imageUrl": "images/ST.png",
+    "alternatives": []
+  },
+  {
+    "country": "Saudi Arabia",
+    "imageUrl": "images/SA.png",
+    "alternatives": []
+  },
+  {
+    "country": "Senegal",
+    "imageUrl": "images/SN.png",
+    "alternatives": []
+  },
+  {
+    "country": "Serbia",
+    "imageUrl": "images/RS.png",
+    "alternatives": []
+  },
+  {
+    "country": "Seychelles",
+    "imageUrl": "images/SC.png",
+    "alternatives": []
+  },
+  {
+    "country": "Sierra Leone",
+    "imageUrl": "images/SL.png",
+    "alternatives": ["Sierra"]
+  },
+  {
+    "country": "Singapore",
+    "imageUrl": "images/SG.png",
+    "alternatives": []
+  },
+  {
+    "country": "Slovakia",
+    "imageUrl": "images/SK.png",
+    "alternatives": []
+  },
+  {
+    "country": "Slovenia",
+    "imageUrl": "images/SI.png",
+    "alternatives": []
+  },
+  {
+    "country": "Solomon Islands",
+    "imageUrl": "images/SB.png",
+    "alternatives": ["Solomon"]
+  },
+  {
+    "country": "Somalia",
+    "imageUrl": "images/SO.png",
+    "alternatives": []
+  },
+  {
+    "country": "South Africa",
+    "imageUrl": "images/ZA.png",
+    "alternatives": []
+  },
+  {
+    "country": "South Korea",
+    "imageUrl": "images/KR.png",
+    "alternatives": ["Republic of Korea", "Korea", "ROK", "korea", "rok"]
+  },
+  {
+    "country": "South Sudan",
+    "imageUrl": "images/SS.png",
+    "alternatives": []
+  },
+  {
+    "country": "Spain",
+    "imageUrl": "images/ES.png",
+    "alternatives": []
+  },
+  {
+    "country": "Sri Lanka",
+    "imageUrl": "images/LK.png",
+    "alternatives": []
+  },
+  {
+    "country": "Sudan",
+    "imageUrl": "images/SD.png",
+    "alternatives": []
+  },
+  {
+    "country": "Suriname",
+    "imageUrl": "images/SR.png",
+    "alternatives": []
+  },
+  {
+    "country": "Sweden",
+    "imageUrl": "images/SE.png",
+    "alternatives": []
+  },
+  {
+    "country": "Switzerland",
+    "imageUrl": "images/CH.png",
+    "alternatives": []
+  },
+  {
+    "country": "Syria",
+    "imageUrl": "images/SY.png",
+    "alternatives": ["Syrian Arab Republic"]
+  },
+  {
+    "country": "Taiwan",
+    "imageUrl": "images/TW.png",
+    "alternatives": ["Republic of China"]
+  },
+  {
+    "country": "Tajikistan",
+    "imageUrl": "images/TJ.png",
+    "alternatives": []
+  },
+  {
+    "country": "Tanzania",
+    "imageUrl": "images/TZ.png",
+    "alternatives": ["Tanzania, United Republic of"]
+  },
+  {
+    "country": "Thailand",
+    "imageUrl": "images/TH.png",
+    "alternatives": []
+  },
+  {
+    "country": "Timor-Leste",
+    "imageUrl": "images/TL.png",
+    "alternatives": []
+  },
+  {
+    "country": "Togo",
+    "imageUrl": "images/TG.png",
+    "alternatives": []
+  },
+  {
+    "country": "Tonga",
+    "imageUrl": "images/TO.png",
+    "alternatives": []
+  },
+  {
+    "country": "Trinidad and Tobago",
+    "imageUrl": "images/TT.png",
+    "alternatives": ["Trinidad", "Tobago"]
+  },
+  {
+    "country": "Tunisia",
+    "imageUrl": "images/TN.png",
+    "alternatives": []
+  },
+  {
+    "country": "Turkey",
+    "imageUrl": "images/TR.png",
+    "alternatives": []
+  },
+  {
+    "country": "Turkmenistan",
+    "imageUrl": "images/TM.png",
+    "alternatives": []
+  },
+  {
+    "country": "Tuvalu",
+    "imageUrl": "images/TV.png",
+    "alternatives": []
+  },
+  {
+    "country": "Uganda",
+    "imageUrl": "images/UG.png",
+    "alternatives": []
+  },
+  {
+    "country": "Ukraine",
+    "imageUrl": "images/UA.png",
+    "alternatives": []
+  },
+  {
+    "country": "United Arab Emirates",
+    "imageUrl": "images/AE.png",
+    "alternatives": []
+  },
+  {
+    "country": "United Kingdom",
+    "imageUrl": "images/GB.png",
+    "alternatives": [
+      "UK",
+      "Britain",
+      "Great Britain",
+      "GB",
+      "United Kingdom of Great Britain and Northern Ireland",
+      "United Kingdom of Great Britain & Northern Ireland"
+    ]
+  },
+  {
+    "country": "Uruguay",
+    "imageUrl": "images/UY.png",
+    "alternatives": []
+  },
+  {
+    "country": "Uzbekistan",
+    "imageUrl": "images/UZ.png",
+    "alternatives": []
+  },
+  {
+    "country": "Vanuatu",
+    "imageUrl": "images/VU.png",
+    "alternatives": []
+  },
+  {
+    "country": "Vatican City",
+    "imageUrl": "images/VA.png",
+    "alternatives": ["Holy See", "Vatican"]
+  },
+  {
+    "country": "Venezuela",
+    "imageUrl": "images/VE.png",
+    "alternatives": ["Venezuela, Bolivarian Republic of"]
+  },
+  {
+    "country": "Vietnam",
+    "imageUrl": "images/VN.png",
+    "alternatives": []
+  },
+  {
+    "country": "Yemen",
+    "imageUrl": "images/YE.png",
+    "alternatives": []
+  },
+  {
+    "country": "Zambia",
+    "imageUrl": "images/ZM.png",
+    "alternatives": []
+  },
+  {
+    "country": "Zimbabwe",
+    "imageUrl": "images/ZW.png",
+    "alternatives": []
+  }
+]

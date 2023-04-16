@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Flag Guessing Game</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Flag Guessing Game</h1>
+      <div id="flag-container" style="display: none">
+        <img class="flag-img" alt="Flag" />
+      </div>
+      <!---->
+      <div class="info-container">
+        <div class="infotext" id="infotext">
+          <p>Time: <span id="timer">0</span> seconds</p>
+          <p>
+            Correct guesses: <span id="correct-guesses">0</span> Skips:
+            <span id="incorrect-guesses">0</span>
+          </p>
+
+          <input
+            type="text"
+            id="country-input"
+            placeholder="Type the country name"
+          />
+        </div>
+        <div class="button-container">
+          <button id="start-button">Start</button>
+          <div class="playbuttons" id="playbuttons" style="display: none">
+            <button id="reset-button">Reset</button>
+            <button id="skip-button">Skip</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
