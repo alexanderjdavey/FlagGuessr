@@ -21,6 +21,9 @@ document.getElementById("normalselect").addEventListener("change", () => {
 document.getElementById("countdownselect").addEventListener("change", () => {
   gameMode = "countdown";
 });
+document.getElementById("hardselect").addEventListener("change", () => {
+  gameMode = "hard";
+});
 
 // Fetch the flag data from flags.json
 fetch("flags.json")
@@ -42,7 +45,7 @@ function startGame() {
     timer = 60;
     document.getElementById("timer").innerText = timer;
   } else {
-    timer = 0;
+    timer = gameMode === "hard" ? 11 : 0;
   }
   startTimer();
   document.getElementById("playbuttons").style.display = "flex";
@@ -50,6 +53,15 @@ function startGame() {
   document.getElementById("country-input").focus();
   document.getElementById("prevanswer").innerHTML = "";
   document.getElementById("modeselect").style.display = "none";
+
+  // Hides these items if hard mode and shows if not
+  if (gameMode === "hard") {
+    document.getElementById("skip-button").style.display = "none";
+    document.getElementById("guesslabels").style.display = "none";
+  } else {
+    document.getElementById("skip-button").style.display = "inline";
+    document.getElementById("guesslabels").style.display = "inline";
+  }
 }
 
 function resetGame() {
@@ -75,6 +87,12 @@ function resetGame() {
 function startTimer() {
   timerInterval = setInterval(function () {
     if (gameMode === "countdown") {
+      timer--;
+      if (timer <= 0) {
+        endGame();
+        return;
+      }
+    } else if (gameMode === "hard") {
       timer--;
       if (timer <= 0) {
         endGame();
@@ -118,10 +136,11 @@ function pickNewFlag() {
 
 function checkGuess() {
   const input = document.getElementById("country-input");
-  if (
+  const isCorrectGuess =
     input.value.toLowerCase() === currentFlag.country.toLowerCase() ||
-    currentFlag.alternatives.includes(input.value)
-  ) {
+    currentFlag.alternatives.includes(input.value);
+
+  if (isCorrectGuess) {
     correctGuesses++;
     updateCorrectGuesses();
     input.value = "";
@@ -139,8 +158,14 @@ function checkGuess() {
       document.getElementById("start-button").style.display = "flex";
       document.getElementById("flag-container").style.display = "none";
     }
+    if (gameMode === "hard") {
+      timer = 11;
+    }
   } else {
     input.style.borderBottomColor = "#cf2929";
+    if (gameMode === "hard") {
+      endGame();
+    }
   }
 }
 
@@ -150,14 +175,14 @@ function updateCorrectGuesses() {
 
 function endGame() {
   stopTimer();
+  let message;
   if (gameMode === "countdown") {
-    alert(
-      `Wow! In 60 seconds you got ${correctGuesses} correct flags and skipped ${incorrectGuesses} flags.`
-    );
+    message = `Wow! In 60 seconds you got ${correctGuesses} correct flags and skipped ${incorrectGuesses} flags.`;
+  } else if (gameMode === "hard") {
+    message = `You managed to get ${correctGuesses} correct flags. The last flag was: ${currentFlag.country}`;
   } else {
-    alert(
-      `You've finished in ${timer} seconds with ${incorrectGuesses} skips and ${correctGuesses} correct guesses!`
-    );
+    message = `You've finished in ${timer} seconds with ${incorrectGuesses} skips and ${correctGuesses} correct guesses!`;
   }
+  alert(message);
   resetGame();
 }

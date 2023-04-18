@@ -27,7 +27,7 @@
   {
     "country": "Antigua and Barbuda",
     "imageUrl": "images/AG.png",
-    "alternatives": ["Antigua", "Barbuda"]
+    "alternatives": ["Antigua", "Barbuda", "antigua", "barbuda"]
   },
   {
     "country": "Argentina",
@@ -107,7 +107,7 @@
   {
     "country": "Bosnia and Herzegovina",
     "imageUrl": "images/BA.png",
-    "alternatives": ["Bosnia", "Herzegovina"]
+    "alternatives": ["Bosnia", "Herzegovina", "bosnia", "herzegovina"]
   },
   {
     "country": "Botswana",
@@ -142,7 +142,7 @@
   {
     "country": "Cabo Verde",
     "imageUrl": "images/CV.png",
-    "alternatives": ["Cape Verde"]
+    "alternatives": ["Cape Verde", "cape verde"]
   },
   {
     "country": "Cambodia",
@@ -192,7 +192,12 @@
   {
     "country": "Congo",
     "imageUrl": "images/CG.png",
-    "alternatives": ["Congo, Republic of the"]
+    "alternatives": [
+      "Congo, Republic of the",
+      "Republic of the Congo",
+      "congo, republic of the",
+      "republic of the congo"
+    ]
   },
   {
     "country": "Costa Rica",
@@ -217,12 +222,12 @@
   {
     "country": "Czech Republic",
     "imageUrl": "images/CZ.png",
-    "alternatives": ["Czechia"]
+    "alternatives": ["Czechia", "czechia", "czechoslovakia", "Czechoslovakia"]
   },
   {
     "country": "Democratic Republic of the Congo",
     "imageUrl": "images/CD.png",
-    "alternatives": ["Congo-Kinshasa"]
+    "alternatives": ["Congo-Kinshasa", "Congo", "DRC", "drc", "congo"]
   },
   {
     "country": "Denmark",
@@ -242,7 +247,7 @@
   {
     "country": "Dominican Republic",
     "imageUrl": "images/DO.png",
-    "alternatives": []
+    "alternatives": ["Dominican", "dominican"]
   },
   {
     "country": "Ecuador",
@@ -262,7 +267,7 @@
   {
     "country": "Equatorial Guinea",
     "imageUrl": "images/GQ.png",
-    "alternatives": []
+    "alternatives": ["Guinea", "guinea"]
   },
   {
     "country": "Eritrea",
@@ -277,7 +282,7 @@
   {
     "country": "Eswatini",
     "imageUrl": "images/SZ.png",
-    "alternatives": ["Swaziland"]
+    "alternatives": ["Swaziland", "swaziland"]
   },
   {
     "country": "Ethiopia",
@@ -487,7 +492,7 @@
   {
     "country": "Liechtenstein",
     "imageUrl": "images/LI.png",
-    "alternatives": []
+    "alternatives": ["Lichtenstein", "lichtenstein"]
   },
   {
     "country": "Lithuania",
@@ -532,7 +537,7 @@
   {
     "country": "Marshall Islands",
     "imageUrl": "images/MH.png",
-    "alternatives": []
+    "alternatives": ["Marshall", "marshall"]
   },
   {
     "country": "Mauritania",
@@ -587,7 +592,7 @@
   {
     "country": "Myanmar",
     "imageUrl": "images/MM.png",
-    "alternatives": ["Burma"]
+    "alternatives": ["Burma", "burma"]
   },
   {
     "country": "Namibia",
@@ -607,7 +612,7 @@
   {
     "country": "Netherlands",
     "imageUrl": "images/NL.png",
-    "alternatives": ["Holland"]
+    "alternatives": ["Holland", "holland"]
   },
   {
     "country": "New Zealand",
@@ -632,12 +637,19 @@
   {
     "country": "North Korea",
     "imageUrl": "images/KP.png",
-    "alternatives": ["Democratic People's Republic of Korea", "DPRK"]
+    "alternatives": [
+      "Democratic People's Republic of Korea",
+      "DPRK",
+      "dprk",
+      "democratic people's republic of korea",
+      "Democratic Peoples Republic of Korea",
+      "democratic peoples republic of korea"
+    ]
   },
   {
     "country": "North Macedonia",
     "imageUrl": "images/MK.png",
-    "alternatives": ["Macedonia"]
+    "alternatives": ["Macedonia", "macedonia"]
   },
   {
     "country": "Norway",
@@ -667,7 +679,7 @@
   {
     "country": "Papua New Guinea",
     "imageUrl": "images/PG.png",
-    "alternatives": ["png"]
+    "alternatives": ["png", "PNG"]
   },
   {
     "country": "Paraguay",
@@ -707,7 +719,7 @@
   {
     "country": "Russia",
     "imageUrl": "images/RU.png",
-    "alternatives": ["Russian Federation"]
+    "alternatives": ["Russian Federation", "russian federation"]
   },
   {
     "country": "Rwanda",
@@ -717,7 +729,16 @@
   {
     "country": "Saint Kitts and Nevis",
     "imageUrl": "images/KN.png",
-    "alternatives": ["Saint Kitts", "Nevis"]
+    "alternatives": [
+      "Saint Kitts",
+      "Nevis",
+      "saint kitts",
+      "nevis",
+      "st kitts",
+      "St Kitts",
+      "St Kitts and Nevis",
+      "st kitts and nevis"
+    ]
   },
   {
     "country": "Saint Lucia",
@@ -732,7 +753,12 @@
       "St Vincent",
       "St Vincent and the Grenadines",
       "St Vincent & the Grenadines",
-      "Saint Vincent & the Grenadines"
+      "Saint Vincent & the Grenadines",
+      "saint vincent",
+      "st vincent",
+      "st vincent and the grenadines",
+      "st vincent & the grenadines",
+      "saint vincent & the grenadines"
     ]
   },
   {
@@ -753,7 +779,7 @@
   {
     "country": "Saudi Arabia",
     "imageUrl": "images/SA.png",
-    "alternatives": []
+    "alternatives": ["Saudi", "saudi"]
   },
   {
     "country": "Senegal",
@@ -773,7 +799,7 @@
   {
     "country": "Sierra Leone",
     "imageUrl": "images/SL.png",
-    "alternatives": ["Sierra"]
+    "alternatives": ["Sierra", "sierra"]
   },
   {
     "country": "Singapore",
@@ -793,7 +819,7 @@
   {
     "country": "Solomon Islands",
     "imageUrl": "images/SB.png",
-    "alternatives": ["Solomon"]
+    "alternatives": ["Solomon", "solomon"]
   },
   {
     "country": "Somalia",
@@ -808,7 +834,14 @@
   {
     "country": "South Korea",
     "imageUrl": "images/KR.png",
-    "alternatives": ["Republic of Korea", "Korea", "ROK", "korea", "rok"]
+    "alternatives": [
+      "Republic of Korea",
+      "Korea",
+      "ROK",
+      "korea",
+      "rok",
+      "republic of korea"
+    ]
   },
   {
     "country": "South Sudan",
@@ -888,7 +921,7 @@
   {
     "country": "Trinidad and Tobago",
     "imageUrl": "images/TT.png",
-    "alternatives": ["Trinidad", "Tobago"]
+    "alternatives": ["Trinidad", "Tobago", "trinidad", "tobago"]
   },
   {
     "country": "Tunisia",
@@ -898,7 +931,7 @@
   {
     "country": "Turkey",
     "imageUrl": "images/TR.png",
-    "alternatives": []
+    "alternatives": ["Turkiye", "turkiye"]
   },
   {
     "country": "Turkmenistan",
@@ -923,7 +956,7 @@
   {
     "country": "United Arab Emirates",
     "imageUrl": "images/AE.png",
-    "alternatives": []
+    "alternatives": ["UAE", "uae"]
   },
   {
     "country": "United Kingdom",

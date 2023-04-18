@@ -15,14 +15,16 @@
       </div>
       <div class="info-container">
         <div class="infotext" id="infotext">
-          <p>Time: <span id="timer">0</span> seconds</p>
-          <p>
-            Correct guesses: <span id="correct-guesses">0</span> Skips:
-            <span id="incorrect-guesses">0</span>
-            <br />
-            <br />
-            <span id="prevanswer"></span>
-          </p>
+          <div class="infolabels" id="infolabels">
+            <p>Time: <span id="timer">0</span> seconds</p>
+            <p id="guesslabels">
+              Correct guesses: <span id="correct-guesses">0</span> Skips:
+              <span id="incorrect-guesses">0</span>
+              <br />
+              <br />
+              <span id="prevanswer"></span>
+            </p>
+          </div>
           <input
             type="text"
             id="country-input"
@@ -45,6 +47,9 @@
           <label
             ><input type="radio" id="countdownselect" name="mode" /> Countdown
             Mode</label
+          >
+          <label
+            ><input type="radio" id="hardselect" name="mode" /> Hard Mode</label
           >
         </div>
       </div>
