@@ -2,7 +2,10 @@
 
 This is a simple game that lets you guess the country based on its flag. The app displays a random flag, and the user can type in the name of the country to guess. If the guess is correct, the next flag will be displayed, and if the guess is incorrect, the user will be prompted to try again.
 
-## Usage
+## How to play
+
+
+[You can play the game here](https://alexanderjdavey.github.io/FlagGuessr/)
 
 To start the game, simply click the "Start" button. The app will display a random flag, and the user can type in the name of the country to guess. If the guess is correct, the app will display the next flag, and if the guess is incorrect, the user will be prompted to try again.
 
