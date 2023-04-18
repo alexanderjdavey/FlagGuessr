@@ -141,7 +141,8 @@
     "country": "Brazil",
     "imageUrl": "images/BR.png",
     "alternatives": ["Brasil", "brasil"],
-    "capital": ["Brasília", "Brasilia", "brasília", "brasilia"]
+    "capital": ["Brasília"],
+    "altcapital": ["Brasilia", "brasília", "brasilia"]
   },
   {
     "country": "Brunei",
@@ -165,7 +166,8 @@
     "country": "Burundi",
     "imageUrl": "images/BI.png",
     "alternatives": [],
-    "capital": ["Bujumbura", "Gitega", "bujumbura", "gitega"]
+    "capital": ["Bujumbura"],
+    "altcapital": ["Gitega", "bujumbura", "gitega"]
   },
   {
     "country": "Cabo Verde",
@@ -219,7 +221,8 @@
     "country": "Colombia",
     "imageUrl": "images/CO.png",
     "alternatives": [],
-    "capital": ["Bogotá", "Bogota"]
+    "capital": ["Bogotá"],
+    "altcapital": ["Bogota"]
   },
   {
     "country": "Comoros",
@@ -242,7 +245,8 @@
     "country": "Costa Rica",
     "imageUrl": "images/CR.png",
     "alternatives": [],
-    "capital": ["San José", "San Jose", "san josé", "san jose"]
+    "capital": ["San José"],
+    "altcapital": ["San Jose", "san josé", "san jose"]
   },
   {
     "country": "Croatia",
@@ -404,7 +408,8 @@
     "country": "Grenada",
     "imageUrl": "images/GD.png",
     "alternatives": [],
-    "capital": ["Saint George's", "Saint Georges", "St Georges", "St George's"]
+    "capital": ["Saint George's"],
+    "altcapital": ["Saint Georges", "St Georges", "St George's"]
   },
   {
     "country": "Guatemala",
@@ -458,7 +463,8 @@
     "country": "India",
     "imageUrl": "images/IN.png",
     "alternatives": [],
-    "capital": ["New Delhi", "Delhi"]
+    "capital": ["New Delhi"],
+    "altcapital": ["Delhi"]
   },
   {
     "country": "Indonesia",
@@ -674,7 +680,8 @@
     "country": "Moldova",
     "imageUrl": "images/MD.png",
     "alternatives": [],
-    "capital": ["Chișinău, Chisinau", "chișinău, chisinau"]
+    "capital": ["Chișinău"],
+    "altcapital": ["Chișinău, Chisinau", "chișinău, chisinau"]
   },
   {
     "country": "Monaco",
@@ -746,7 +753,8 @@
     "country": "Nicaragua",
     "imageUrl": "images/NI.png",
     "alternatives": [],
-    "capital": ["Managua, Manágua", "managua, manágua"]
+    "capital": ["Managua"],
+    "altcapital": ["Manágua", "managua, manágua"]
   },
   {
     "country": "Niger",
@@ -923,7 +931,8 @@
     "country": "Sao Tome and Principe",
     "imageUrl": "images/ST.png",
     "alternatives": [],
-    "capital": ["São Tomé", "Sao Tome", "são tomé", "sao tome"]
+    "capital": ["São Tomé"],
+    "altcapital": ["Sao Tome", "são tomé", "sao tome"]
   },
   {
     "country": "Saudi Arabia",
@@ -1172,8 +1181,8 @@
       "US",
       "us"
     ],
-    "capital": [
-      "Washington, D.C.",
+    "capital": ["Washington, D.C."],
+    "altcapital": [
       "washington, D.C.",
       "washington, d.c.",
       "washington dc",

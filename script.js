@@ -157,9 +157,10 @@ function checkGuess() {
   if (gameMode === "capital") {
     let capital = currentFlag.capital;
     if (Array.isArray(capital)) {
-      isCorrect = capital.some(
-        (cap) => cap.toLowerCase() === input.value.toLowerCase()
-      );
+      isCorrect =
+        capital.some(
+          (cap) => cap.toLowerCase() === input.value.toLowerCase()
+        ) || currentFlag.altcapital.includes(input.value);
     } else {
       isCorrect = input.value.toLowerCase() === capital.toLowerCase();
     }
