@@ -2,192 +2,230 @@
   {
     "country": "Afghanistan",
     "imageUrl": "images/AF.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Kabul"
   },
   {
     "country": "Albania",
     "imageUrl": "images/AL.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Tirana"
   },
   {
     "country": "Algeria",
     "imageUrl": "images/DZ.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Algiers"
   },
   {
     "country": "Andorra",
     "imageUrl": "images/AD.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Andorra la Vella"
   },
   {
     "country": "Angola",
     "imageUrl": "images/AO.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Luanda"
   },
   {
     "country": "Antigua and Barbuda",
     "imageUrl": "images/AG.png",
-    "alternatives": ["Antigua", "Barbuda", "antigua", "barbuda"]
+    "alternatives": ["Antigua", "Barbuda", "antigua", "barbuda"],
+    "capital": "Saint John's"
   },
   {
     "country": "Argentina",
     "imageUrl": "images/AR.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Buenos Aires"
   },
   {
     "country": "Armenia",
     "imageUrl": "images/AM.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Yerevan"
   },
   {
     "country": "Australia",
     "imageUrl": "images/AU.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Canberra"
   },
   {
     "country": "Austria",
     "imageUrl": "images/AT.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Vienna"
   },
   {
     "country": "Azerbaijan",
     "imageUrl": "images/AZ.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Baku"
   },
   {
     "country": "Bahamas",
     "imageUrl": "images/BS.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Nassau"
   },
   {
     "country": "Bahrain",
     "imageUrl": "images/BH.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Manama"
   },
   {
     "country": "Bangladesh",
     "imageUrl": "images/BD.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Dhaka"
   },
   {
     "country": "Barbados",
     "imageUrl": "images/BB.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Bridgetown"
   },
   {
     "country": "Belarus",
     "imageUrl": "images/BY.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Minsk"
   },
   {
     "country": "Belgium",
     "imageUrl": "images/BE.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Brussels"
   },
   {
     "country": "Belize",
     "imageUrl": "images/BZ.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Belmopan"
   },
   {
     "country": "Benin",
     "imageUrl": "images/BJ.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Porto-Novo"
   },
   {
     "country": "Bhutan",
     "imageUrl": "images/BT.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Thimphu"
   },
   {
     "country": "Bolivia",
     "imageUrl": "images/BO.png",
-    "alternatives": ["Bolivia, Plurinational State of"]
+    "alternatives": ["Bolivia, Plurinational State of"],
+    "capital": "Sucre"
   },
   {
     "country": "Bosnia and Herzegovina",
     "imageUrl": "images/BA.png",
-    "alternatives": ["Bosnia", "Herzegovina", "bosnia", "herzegovina"]
+    "alternatives": ["Bosnia", "Herzegovina", "bosnia", "herzegovina"],
+    "capital": "Sarajevo"
   },
   {
     "country": "Botswana",
     "imageUrl": "images/BW.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Gaborone"
   },
   {
     "country": "Brazil",
     "imageUrl": "images/BR.png",
-    "alternatives": ["Brasil", "brasil"]
+    "alternatives": ["Brasil", "brasil"],
+    "capital": ["Brasília", "Brasilia", "brasília", "brasilia"]
   },
   {
     "country": "Brunei",
     "imageUrl": "images/BN.png",
-    "alternatives": ["Brunei Darussalam"]
+    "alternatives": ["Brunei Darussalam"],
+    "capital": "Bandar Seri Begawan"
   },
   {
     "country": "Bulgaria",
     "imageUrl": "images/BG.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Sofia"
   },
   {
     "country": "Burkina Faso",
     "imageUrl": "images/BF.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Ouagadougou"
   },
   {
     "country": "Burundi",
     "imageUrl": "images/BI.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": ["Bujumbura", "Gitega", "bujumbura", "gitega"]
   },
   {
     "country": "Cabo Verde",
     "imageUrl": "images/CV.png",
-    "alternatives": ["Cape Verde", "cape verde"]
+    "alternatives": ["Cape Verde", "cape verde"],
+    "capital": "Praia"
   },
   {
     "country": "Cambodia",
     "imageUrl": "images/KH.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Phnom Penh"
   },
   {
     "country": "Cameroon",
     "imageUrl": "images/CM.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Yaoundé"
   },
   {
     "country": "Canada",
     "imageUrl": "images/CA.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Ottawa"
   },
   {
     "country": "Central African Republic",
     "imageUrl": "images/CF.png",
-    "alternatives": ["CAR", "car"]
+    "alternatives": ["CAR", "car"],
+    "capital": "Bangui"
   },
   {
     "country": "Chad",
     "imageUrl": "images/TD.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "N'Djamena"
   },
   {
     "country": "Chile",
     "imageUrl": "images/CL.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Santiago"
   },
   {
     "country": "China",
     "imageUrl": "images/CN.png",
-    "alternatives": ["People's Republic of China"]
+    "alternatives": ["People's Republic of China"],
+    "capital": "Beijing"
   },
   {
     "country": "Colombia",
     "imageUrl": "images/CO.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": ["Bogotá", "Bogota"]
   },
   {
     "country": "Comoros",
     "imageUrl": "images/KM.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Moroni"
   },
   {
     "country": "Congo",
@@ -197,442 +235,530 @@
       "Republic of the Congo",
       "congo, republic of the",
       "republic of the congo"
-    ]
+    ],
+    "capital": "Brazzaville"
   },
   {
     "country": "Costa Rica",
     "imageUrl": "images/CR.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": ["San José", "San Jose", "san josé", "san jose"]
   },
   {
     "country": "Croatia",
     "imageUrl": "images/HR.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Zagreb"
   },
   {
     "country": "Cuba",
     "imageUrl": "images/CU.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Havana"
   },
   {
     "country": "Cyprus",
     "imageUrl": "images/CY.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Nicosia"
   },
   {
     "country": "Czech Republic",
     "imageUrl": "images/CZ.png",
-    "alternatives": ["Czechia", "czechia", "czechoslovakia", "Czechoslovakia"]
+    "alternatives": ["Czechia", "czechia", "czechoslovakia", "Czechoslovakia"],
+    "capital": "Prague"
   },
   {
     "country": "Democratic Republic of the Congo",
     "imageUrl": "images/CD.png",
-    "alternatives": ["Congo-Kinshasa", "Congo", "DRC", "drc", "congo"]
+    "alternatives": ["Congo-Kinshasa", "Congo", "DRC", "drc", "congo"],
+    "capital": "Kinshasa"
   },
   {
     "country": "Denmark",
     "imageUrl": "images/DK.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Copenhagen"
   },
   {
     "country": "Djibouti",
     "imageUrl": "images/DJ.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Djibouti"
   },
   {
     "country": "Dominica",
     "imageUrl": "images/DM.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Roseau"
   },
   {
     "country": "Dominican Republic",
     "imageUrl": "images/DO.png",
-    "alternatives": ["Dominican", "dominican"]
+    "alternatives": ["Dominican", "dominican"],
+    "capital": "Santo Domingo"
   },
   {
     "country": "Ecuador",
     "imageUrl": "images/EC.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Quito"
   },
   {
     "country": "Egypt",
     "imageUrl": "images/EG.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Cairo"
   },
   {
     "country": "El Salvador",
     "imageUrl": "images/SV.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "San Salvador"
   },
   {
     "country": "Equatorial Guinea",
     "imageUrl": "images/GQ.png",
-    "alternatives": ["Guinea", "guinea"]
+    "alternatives": ["Guinea", "guinea"],
+    "capital": "Malabo"
   },
   {
     "country": "Eritrea",
     "imageUrl": "images/ER.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Asmara"
   },
   {
     "country": "Estonia",
     "imageUrl": "images/EE.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Tallinn"
   },
   {
     "country": "Eswatini",
     "imageUrl": "images/SZ.png",
-    "alternatives": ["Swaziland", "swaziland"]
+    "alternatives": ["Swaziland", "swaziland"],
+    "capital": "Mbabane"
   },
   {
     "country": "Ethiopia",
     "imageUrl": "images/ET.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Addis Ababa"
   },
   {
     "country": "Fiji",
     "imageUrl": "images/FJ.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Suva"
   },
   {
     "country": "Finland",
     "imageUrl": "images/FI.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Helsinki"
   },
   {
     "country": "France",
     "imageUrl": "images/FR.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Paris"
   },
   {
     "country": "Gabon",
     "imageUrl": "images/GA.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Libreville"
   },
   {
     "country": "Gambia",
     "imageUrl": "images/GM.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Banjul"
   },
   {
     "country": "Georgia",
     "imageUrl": "images/GE.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Tbilisi"
   },
   {
     "country": "Germany",
     "imageUrl": "images/DE.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Berlin"
   },
   {
     "country": "Ghana",
     "imageUrl": "images/GH.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Accra"
   },
   {
     "country": "Greece",
     "imageUrl": "images/GR.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Athens"
   },
   {
     "country": "Grenada",
     "imageUrl": "images/GD.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": ["Saint George's", "Saint Georges", "St Georges", "St George's"]
   },
   {
     "country": "Guatemala",
     "imageUrl": "images/GT.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Guatemala City"
   },
   {
     "country": "Guinea",
     "imageUrl": "images/GN.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Conakry"
   },
   {
     "country": "Guinea-Bissau",
     "imageUrl": "images/GW.png",
-    "alternatives": ["Guinea Bissau", "guinea bissau", "guinea", "Guinea"]
+    "alternatives": ["Guinea Bissau", "guinea bissau", "guinea", "Guinea"],
+    "capital": "Bissau"
   },
   {
     "country": "Guyana",
     "imageUrl": "images/GY.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Georgetown"
   },
   {
     "country": "Haiti",
     "imageUrl": "images/HT.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Port-au-Prince"
   },
   {
     "country": "Honduras",
     "imageUrl": "images/HN.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Tegucigalpa"
   },
   {
     "country": "Hungary",
     "imageUrl": "images/HU.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Budapest"
   },
   {
     "country": "Iceland",
     "imageUrl": "images/IS.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Reykjavík"
   },
   {
     "country": "India",
     "imageUrl": "images/IN.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": ["New Delhi", "Delhi"]
   },
   {
     "country": "Indonesia",
     "imageUrl": "images/ID.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Jakarta"
   },
   {
     "country": "Iran",
     "imageUrl": "images/IR.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Tehran"
   },
   {
     "country": "Iraq",
     "imageUrl": "images/IQ.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Baghdad"
   },
   {
     "country": "Ireland",
     "imageUrl": "images/IE.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Dublin"
   },
   {
     "country": "Israel",
     "imageUrl": "images/IL.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Jerusalem"
   },
   {
     "country": "Italy",
     "imageUrl": "images/IT.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Rome"
   },
   {
     "country": "Jamaica",
     "imageUrl": "images/JM.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Kingston"
   },
   {
     "country": "Japan",
     "imageUrl": "images/JP.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Tokyo"
   },
   {
     "country": "Jordan",
     "imageUrl": "images/JO.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Amman"
   },
   {
     "country": "Kazakhstan",
     "imageUrl": "images/KZ.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Astana"
   },
   {
     "country": "Kenya",
     "imageUrl": "images/KE.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Nairobi"
   },
   {
     "country": "Kiribati",
     "imageUrl": "images/KI.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Tarawa"
   },
   {
     "country": "Kosovo",
     "imageUrl": "images/XK.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Pristina"
   },
   {
     "country": "Kuwait",
     "imageUrl": "images/KW.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Kuwait City"
   },
   {
     "country": "Kyrgyzstan",
     "imageUrl": "images/KG.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Bishkek"
   },
   {
     "country": "Laos",
     "imageUrl": "images/LA.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Vientiane"
   },
   {
     "country": "Latvia",
     "imageUrl": "images/LV.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Riga"
   },
   {
     "country": "Lebanon",
     "imageUrl": "images/LB.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Beirut"
   },
   {
     "country": "Lesotho",
     "imageUrl": "images/LS.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Maseru"
   },
   {
     "country": "Liberia",
     "imageUrl": "images/LR.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Monrovia"
   },
   {
     "country": "Libya",
     "imageUrl": "images/LY.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Tripoli"
   },
   {
     "country": "Liechtenstein",
     "imageUrl": "images/LI.png",
-    "alternatives": ["Lichtenstein", "lichtenstein"]
+    "alternatives": ["Lichtenstein", "lichtenstein"],
+    "capital": "Vaduz"
   },
   {
     "country": "Lithuania",
     "imageUrl": "images/LT.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Vilnius"
   },
   {
     "country": "Luxembourg",
     "imageUrl": "images/LU.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Luxembourg"
   },
   {
     "country": "Madagascar",
     "imageUrl": "images/MG.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Antananarivo"
   },
   {
     "country": "Malawi",
     "imageUrl": "images/MW.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Lilongwe"
   },
   {
     "country": "Malaysia",
     "imageUrl": "images/MY.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Kuala Lumpur"
   },
   {
     "country": "Maldives",
     "imageUrl": "images/MV.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Malé"
   },
   {
     "country": "Mali",
     "imageUrl": "images/ML.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Bamako"
   },
   {
     "country": "Malta",
     "imageUrl": "images/MT.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Valletta"
   },
   {
     "country": "Marshall Islands",
     "imageUrl": "images/MH.png",
-    "alternatives": ["Marshall", "marshall"]
+    "alternatives": ["Marshall", "marshall"],
+    "capital": "Majuro"
   },
   {
     "country": "Mauritania",
     "imageUrl": "images/MR.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Nouakchott"
   },
   {
     "country": "Mauritius",
     "imageUrl": "images/MU.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Port Louis"
   },
   {
     "country": "Mexico",
     "imageUrl": "images/MX.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Mexico City"
   },
   {
     "country": "Micronesia",
     "imageUrl": "images/FM.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Palikir"
   },
   {
     "country": "Moldova",
     "imageUrl": "images/MD.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": ["Chișinău, Chisinau", "chișinău, chisinau"]
   },
   {
     "country": "Monaco",
     "imageUrl": "images/MC.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Monaco"
   },
   {
     "country": "Mongolia",
     "imageUrl": "images/MN.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Ulaanbaatar"
   },
   {
     "country": "Montenegro",
     "imageUrl": "images/ME.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Podgorica"
   },
   {
     "country": "Morocco",
     "imageUrl": "images/MA.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Rabat"
   },
   {
     "country": "Mozambique",
     "imageUrl": "images/MZ.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Maputo"
   },
   {
     "country": "Myanmar",
     "imageUrl": "images/MM.png",
-    "alternatives": ["Burma", "burma"]
+    "alternatives": ["Burma", "burma"],
+    "capital": "Naypyidaw"
   },
   {
     "country": "Namibia",
     "imageUrl": "images/NA.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Windhoek"
   },
   {
     "country": "Nauru",
     "imageUrl": "images/NR.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Yaren"
   },
   {
     "country": "Nepal",
     "imageUrl": "images/NP.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Kathmandu"
   },
   {
     "country": "Netherlands",
     "imageUrl": "images/NL.png",
-    "alternatives": ["Holland", "holland"]
+    "alternatives": ["Holland", "holland"],
+    "capital": "Amsterdam"
   },
   {
     "country": "New Zealand",
     "imageUrl": "images/NZ.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Wellington"
   },
   {
     "country": "Nicaragua",
     "imageUrl": "images/NI.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": ["Managua, Manágua", "managua, manágua"]
   },
   {
     "country": "Niger",
     "imageUrl": "images/NE.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Niamey"
   },
   {
     "country": "Nigeria",
     "imageUrl": "images/NG.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Abuja"
   },
   {
     "country": "North Korea",
@@ -644,87 +770,104 @@
       "democratic people's republic of korea",
       "Democratic Peoples Republic of Korea",
       "democratic peoples republic of korea"
-    ]
+    ],
+    "capital": "Pyongyang"
   },
   {
     "country": "North Macedonia",
     "imageUrl": "images/MK.png",
-    "alternatives": ["Macedonia", "macedonia"]
+    "alternatives": ["Macedonia", "macedonia"],
+    "capital": "Skopje"
   },
   {
     "country": "Norway",
     "imageUrl": "images/NO.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Oslo"
   },
   {
     "country": "Oman",
     "imageUrl": "images/OM.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Muscat"
   },
   {
     "country": "Pakistan",
     "imageUrl": "images/PK.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Islamabad"
   },
   {
     "country": "Palau",
     "imageUrl": "images/PW.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Ngerulmud"
   },
   {
     "country": "Panama",
     "imageUrl": "images/PA.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Panama City"
   },
   {
     "country": "Papua New Guinea",
     "imageUrl": "images/PG.png",
-    "alternatives": ["png", "PNG"]
+    "alternatives": ["png", "PNG"],
+    "capital": "Port Moresby"
   },
   {
     "country": "Paraguay",
     "imageUrl": "images/PY.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Asunción"
   },
   {
     "country": "Peru",
     "imageUrl": "images/PE.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Lima"
   },
   {
     "country": "Philippines",
     "imageUrl": "images/PH.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Manila"
   },
   {
     "country": "Poland",
     "imageUrl": "images/PL.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Warsaw"
   },
   {
     "country": "Portugal",
     "imageUrl": "images/PT.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Lisbon"
   },
   {
     "country": "Qatar",
     "imageUrl": "images/QA.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Doha"
   },
   {
     "country": "Romania",
     "imageUrl": "images/RO.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Bucharest"
   },
   {
     "country": "Russia",
     "imageUrl": "images/RU.png",
-    "alternatives": ["Russian Federation", "russian federation"]
+    "alternatives": ["Russian Federation", "russian federation"],
+    "capital": "Moscow"
   },
   {
     "country": "Rwanda",
     "imageUrl": "images/RW.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Kigali"
   },
   {
     "country": "Saint Kitts and Nevis",
@@ -738,12 +881,14 @@
       "St Kitts",
       "St Kitts and Nevis",
       "st kitts and nevis"
-    ]
+    ],
+    "capital": "Basseterre"
   },
   {
     "country": "Saint Lucia",
     "imageUrl": "images/LC.png",
-    "alternatives": ["St Lucia", "st lucia"]
+    "alternatives": ["St Lucia", "st lucia"],
+    "capital": "Castries"
   },
   {
     "country": "Saint Vincent and the Grenadines",
@@ -759,77 +904,92 @@
       "st vincent and the grenadines",
       "st vincent & the grenadines",
       "saint vincent & the grenadines"
-    ]
+    ],
+    "capital": "Kingstown"
   },
   {
     "country": "Samoa",
     "imageUrl": "images/WS.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Apia"
   },
   {
     "country": "San Marino",
     "imageUrl": "images/SM.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "San Marino"
   },
   {
     "country": "Sao Tome and Principe",
     "imageUrl": "images/ST.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": ["São Tomé", "Sao Tome", "são tomé", "sao tome"]
   },
   {
     "country": "Saudi Arabia",
     "imageUrl": "images/SA.png",
-    "alternatives": ["Saudi", "saudi"]
+    "alternatives": ["Saudi", "saudi"],
+    "capital": "Riyadh"
   },
   {
     "country": "Senegal",
     "imageUrl": "images/SN.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Dakar"
   },
   {
     "country": "Serbia",
     "imageUrl": "images/RS.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Belgrade"
   },
   {
     "country": "Seychelles",
     "imageUrl": "images/SC.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Victoria"
   },
   {
     "country": "Sierra Leone",
     "imageUrl": "images/SL.png",
-    "alternatives": ["Sierra", "sierra"]
+    "alternatives": ["Sierra", "sierra"],
+    "capital": "Freetown"
   },
   {
     "country": "Singapore",
     "imageUrl": "images/SG.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Singapore"
   },
   {
     "country": "Slovakia",
     "imageUrl": "images/SK.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Bratislava"
   },
   {
     "country": "Slovenia",
     "imageUrl": "images/SI.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Ljubljana"
   },
   {
     "country": "Solomon Islands",
     "imageUrl": "images/SB.png",
-    "alternatives": ["Solomon", "solomon"]
+    "alternatives": ["Solomon", "solomon"],
+    "capital": "Honiara"
   },
   {
     "country": "Somalia",
     "imageUrl": "images/SO.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Mogadishu"
   },
   {
     "country": "South Africa",
     "imageUrl": "images/ZA.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Pretoria"
   },
   {
     "country": "South Korea",
@@ -841,122 +1001,146 @@
       "korea",
       "rok",
       "republic of korea"
-    ]
+    ],
+    "capital": "Seoul"
   },
   {
     "country": "South Sudan",
     "imageUrl": "images/SS.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Juba"
   },
   {
     "country": "Spain",
     "imageUrl": "images/ES.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Madrid"
   },
   {
     "country": "Sri Lanka",
     "imageUrl": "images/LK.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Colombo"
   },
   {
     "country": "Sudan",
     "imageUrl": "images/SD.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Khartoum"
   },
   {
     "country": "Suriname",
     "imageUrl": "images/SR.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Paramaribo"
   },
   {
     "country": "Sweden",
     "imageUrl": "images/SE.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Stockholm"
   },
   {
     "country": "Switzerland",
     "imageUrl": "images/CH.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Bern"
   },
   {
     "country": "Syria",
     "imageUrl": "images/SY.png",
-    "alternatives": ["Syrian Arab Republic"]
+    "alternatives": ["Syrian Arab Republic"],
+    "capital": "Damascus"
   },
   {
     "country": "Taiwan",
     "imageUrl": "images/TW.png",
-    "alternatives": ["Republic of China"]
+    "alternatives": ["Republic of China"],
+    "capital": "Taipei"
   },
   {
     "country": "Tajikistan",
     "imageUrl": "images/TJ.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Dushanbe"
   },
   {
     "country": "Tanzania",
     "imageUrl": "images/TZ.png",
-    "alternatives": ["Tanzania, United Republic of"]
+    "alternatives": ["Tanzania, United Republic of"],
+    "capital": "Dodoma"
   },
   {
     "country": "Thailand",
     "imageUrl": "images/TH.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Bangkok"
   },
   {
     "country": "Timor-Leste",
     "imageUrl": "images/TL.png",
-    "alternatives": ["Timor Leste", "Timor"]
+    "alternatives": ["Timor Leste", "Timor"],
+    "capital": "Dili"
   },
   {
     "country": "Togo",
     "imageUrl": "images/TG.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Lomé"
   },
   {
     "country": "Tonga",
     "imageUrl": "images/TO.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Nuku'alofa"
   },
   {
     "country": "Trinidad and Tobago",
     "imageUrl": "images/TT.png",
-    "alternatives": ["Trinidad", "Tobago", "trinidad", "tobago"]
+    "alternatives": ["Trinidad", "Tobago", "trinidad", "tobago"],
+    "capital": "Port of Spain"
   },
   {
     "country": "Tunisia",
     "imageUrl": "images/TN.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Tunis"
   },
   {
     "country": "Turkey",
     "imageUrl": "images/TR.png",
-    "alternatives": ["Turkiye", "turkiye"]
+    "alternatives": ["Turkiye", "turkiye"],
+    "capital": "Ankara"
   },
   {
     "country": "Turkmenistan",
     "imageUrl": "images/TM.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Ashgabat"
   },
   {
     "country": "Tuvalu",
     "imageUrl": "images/TV.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Funafuti"
   },
   {
     "country": "Uganda",
     "imageUrl": "images/UG.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Kampala"
   },
   {
     "country": "Ukraine",
     "imageUrl": "images/UA.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Kyiv"
   },
   {
     "country": "United Arab Emirates",
     "imageUrl": "images/AE.png",
-    "alternatives": ["UAE", "uae"]
+    "alternatives": ["UAE", "uae"],
+    "capital": "Abu Dhabi"
   },
   {
     "country": "United Kingdom",
@@ -974,51 +1158,82 @@
       "gb",
       "united kingdom of great britain and northern ireland",
       "united kingdom of great britain & northern ireland"
+    ],
+    "capital": "London"
+  },
+  {
+    "country": "United States of America",
+    "imageUrl": "images/US.png",
+    "alternatives": [
+      "USA",
+      "usa",
+      "United States",
+      "united states",
+      "US",
+      "us"
+    ],
+    "capital": [
+      "Washington, D.C.",
+      "washington, D.C.",
+      "washington, d.c.",
+      "washington dc",
+      "Washington DC",
+      "Washington",
+      "washington"
     ]
   },
   {
     "country": "Uruguay",
     "imageUrl": "images/UY.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Montevideo"
   },
   {
     "country": "Uzbekistan",
     "imageUrl": "images/UZ.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Tashkent"
   },
   {
     "country": "Vanuatu",
     "imageUrl": "images/VU.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Port Villa"
   },
   {
     "country": "Vatican City",
     "imageUrl": "images/VA.png",
-    "alternatives": ["Holy See", "Vatican", "vatican", "holy see"]
+    "alternatives": ["Holy See", "Vatican", "vatican", "holy see"],
+    "capital": "Vatican City"
   },
   {
     "country": "Venezuela",
     "imageUrl": "images/VE.png",
-    "alternatives": ["Venezuela, Bolivarian Republic of"]
+    "alternatives": ["Venezuela, Bolivarian Republic of"],
+    "capital": "Caracas"
   },
   {
     "country": "Vietnam",
     "imageUrl": "images/VN.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Hanoi"
   },
   {
     "country": "Yemen",
     "imageUrl": "images/YE.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Sanaa"
   },
   {
     "country": "Zambia",
     "imageUrl": "images/ZM.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Lusaka"
   },
   {
     "country": "Zimbabwe",
     "imageUrl": "images/ZW.png",
-    "alternatives": []
+    "alternatives": [],
+    "capital": "Harare"
   }
 ]

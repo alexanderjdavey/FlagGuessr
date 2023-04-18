@@ -13,6 +13,7 @@ If the user is unsure of the answer, they can click the "Skip" button to move on
 - Normal: The classic game, unlimited time and see if you can finish all 194 flags!
 - Countdown: Timer counts down from 1 minute. How many flags can you guess against the clock?
 - Hard: Hard mode counts down from 10 seconds. Every guess resets the clock. Hard mode has no skips and no mistakes!
+- Capital Cities: From just the flag you have to guess the capital city of the country.
 
 ## Contributing
 

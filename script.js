@@ -24,6 +24,9 @@ document.getElementById("countdownselect").addEventListener("change", () => {
 document.getElementById("hardselect").addEventListener("change", () => {
   gameMode = "hard";
 });
+document.getElementById("capitalselect").addEventListener("change", () => {
+  gameMode = "capital";
+});
 
 // Fetch the flag data from flags.json
 fetch("flags.json")
@@ -41,6 +44,14 @@ function startGame() {
   pickNewFlag();
   document.getElementById("start-button").style.display = "none";
   document.getElementById("flag-container").style.display = "flex";
+  // Set the input box text differently if its capital mode
+  if (gameMode === "capital") {
+    document.getElementById("country-input").placeholder =
+      "Type the capital city";
+  } else {
+    document.getElementById("country-input").placeholder =
+      "Type the country name";
+  }
   if (gameMode === "countdown") {
     timer = 60;
     document.getElementById("timer").innerText = timer;
@@ -117,8 +128,13 @@ function skipFlag() {
   if (remainingFlags.length > 0) {
     incorrectGuesses++;
     document.getElementById("country-input").style.borderBottomColor = "#888";
-    document.getElementById("prevanswer").innerHTML =
-      "The previous flag was: " + currentFlag.country;
+    if (gameMode === "capital") {
+      document.getElementById("prevanswer").innerHTML =
+        "The capital of " + currentFlag.country + " is " + currentFlag.capital;
+    } else {
+      document.getElementById("prevanswer").innerHTML =
+        "The flag was: " + currentFlag.country;
+    }
     document.getElementById("prevanswer").style.color = "#d95d55";
     updateIncorrectGuesses();
     pickNewFlag();
@@ -136,17 +152,40 @@ function pickNewFlag() {
 
 function checkGuess() {
   const input = document.getElementById("country-input");
-  const isCorrectGuess =
-    input.value.toLowerCase() === currentFlag.country.toLowerCase() ||
-    currentFlag.alternatives.includes(input.value);
+  let isCorrect = false;
 
-  if (isCorrectGuess) {
+  if (gameMode === "capital") {
+    let capital = currentFlag.capital;
+    if (Array.isArray(capital)) {
+      isCorrect = capital.some(
+        (cap) => cap.toLowerCase() === input.value.toLowerCase()
+      );
+    } else {
+      isCorrect = input.value.toLowerCase() === capital.toLowerCase();
+    }
+  } else {
+    isCorrect =
+      input.value.toLowerCase() === currentFlag.country.toLowerCase() ||
+      currentFlag.alternatives.includes(input.value);
+  }
+
+  if (isCorrect) {
     correctGuesses++;
     updateCorrectGuesses();
     input.value = "";
     input.style.borderBottomColor = "#888";
-    document.getElementById("prevanswer").innerHTML =
-      "Correct, the flag was: " + currentFlag.country;
+    //Correct message (for capital and for normal game modes)
+    if (gameMode === "capital") {
+      document.getElementById("prevanswer").innerHTML =
+        "Correct, the capital of " +
+        currentFlag.country +
+        " is " +
+        currentFlag.capital;
+    } else {
+      document.getElementById("prevanswer").innerHTML =
+        "Correct, the flag was: " + currentFlag.country;
+    }
+    //
     document.getElementById("prevanswer").style.color = "#67e674";
     if (remainingFlags.length > 0) {
       pickNewFlag();
