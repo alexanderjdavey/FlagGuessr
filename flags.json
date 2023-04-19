@@ -1143,7 +1143,7 @@
     "country": "Ukraine",
     "imageUrl": "images/UA.png",
     "alternatives": [],
-    "capital": "Kyiv"
+    "capital": ["Kyiv", "Kiev"]
   },
   {
     "country": "United Arab Emirates",
