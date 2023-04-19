@@ -1095,7 +1095,7 @@
     "country": "Togo",
     "imageUrl": "images/TG.png",
     "alternatives": [],
-    "capital": "Lomé"
+    "capital": ["Lomé","Lome"]
   },
   {
     "country": "Tonga",
