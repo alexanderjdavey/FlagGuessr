@@ -1,0 +1,302 @@
+[
+  {
+    "state": "Alabama",
+    "stateCode": "al",
+    "imageUrl": "images/us_states/al.png",
+    "alternatives": ["alabama", "state of alabama"]
+  },
+  {
+    "state": "Alaska",
+    "stateCode": "ak",
+    "imageUrl": "images/us_states/ak.png",
+    "alternatives": ["alaska", "state of alaska"]
+  },
+  {
+    "state": "Arizona",
+    "stateCode": "az",
+    "imageUrl": "images/us_states/az.png",
+    "alternatives": ["arizona", "state of arizona"]
+  },
+  {
+    "state": "Arkansas",
+    "stateCode": "ar",
+    "imageUrl": "images/us_states/ar.png",
+    "alternatives": ["arkansas", "state of arkansas"]
+  },
+  {
+    "state": "California",
+    "stateCode": "ca",
+    "imageUrl": "images/us_states/ca.png",
+    "alternatives": ["california", "state of california"]
+  },
+  {
+    "state": "Colorado",
+    "stateCode": "co",
+    "imageUrl": "images/us_states/co.png",
+    "alternatives": ["colorado", "state of colorado"]
+  },
+  {
+    "state": "Connecticut",
+    "stateCode": "ct",
+    "imageUrl": "images/us_states/ct.png",
+    "alternatives": ["connecticut", "state of connecticut"]
+  },
+  {
+    "state": "Delaware",
+    "stateCode": "de",
+    "imageUrl": "images/us_states/de.png",
+    "alternatives": ["delaware", "state of delaware"]
+  },
+  {
+    "state": "Florida",
+    "stateCode": "fl",
+    "imageUrl": "images/us_states/fl.png",
+    "alternatives": ["florida", "state of florida"]
+  },
+  {
+    "state": "Georgia",
+    "stateCode": "ga",
+    "imageUrl": "images/us_states/ga.png",
+    "alternatives": ["georgia", "state of georgia"]
+  },
+  {
+    "state": "Hawaii",
+    "stateCode": "hi",
+    "imageUrl": "images/us_states/hi.png",
+    "alternatives": ["hawaii", "state of hawaii"]
+  },
+  {
+    "state": "Idaho",
+    "stateCode": "id",
+    "imageUrl": "images/us_states/id.png",
+    "alternatives": ["idaho", "state of idaho"]
+  },
+  {
+    "state": "Illinois",
+    "stateCode": "il",
+    "imageUrl": "images/us_states/il.png",
+    "alternatives": ["illinois", "state of illinois"]
+  },
+  {
+    "state": "Indiana",
+    "stateCode": "in",
+    "imageUrl": "images/us_states/in.png",
+    "alternatives": ["indiana", "state of indiana"]
+  },
+  {
+    "state": "Iowa",
+    "stateCode": "ia",
+    "imageUrl": "images/us_states/ia.png",
+    "alternatives": ["iowa", "state of iowa"]
+  },
+  {
+    "state": "Kansas",
+    "stateCode": "ks",
+    "imageUrl": "images/us_states/ks.png",
+    "alternatives": ["kansas", "state of kansas"]
+  },
+  {
+    "state": "Kentucky",
+    "stateCode": "ky",
+    "imageUrl": "images/us_states/ky.png",
+    "alternatives": ["kentucky", "state of kentucky"]
+  },
+  {
+    "state": "Louisiana",
+    "stateCode": "la",
+    "imageUrl": "images/us_states/la.png",
+    "alternatives": ["louisiana", "state of louisiana"]
+  },
+  {
+    "state": "Maine",
+    "stateCode": "me",
+    "imageUrl": "images/us_states/me.png",
+    "alternatives": ["maine", "state of maine"]
+  },
+  {
+    "state": "Maryland",
+    "stateCode": "md",
+    "imageUrl": "images/us_states/md.png",
+    "alternatives": ["maryland", "state of maryland"]
+  },
+  {
+    "state": "Massachusetts",
+    "stateCode": "ma",
+    "imageUrl": "images/us_states/ma.png",
+    "alternatives": ["massachusetts", "state of massachusetts"]
+  },
+  {
+    "state": "Michigan",
+    "stateCode": "mi",
+    "imageUrl": "images/us_states/mi.png",
+    "alternatives": ["michigan", "state of michigan"]
+  },
+  {
+    "state": "Minnesota",
+    "stateCode": "mn",
+    "imageUrl": "images/us_states/mn.png",
+    "alternatives": ["minnesota", "state of minnesota"]
+  },
+  {
+    "state": "Mississippi",
+    "stateCode": "ms",
+    "imageUrl": "images/us_states/ms.png",
+    "alternatives": ["mississippi", "state of mississippi"]
+  },
+  {
+    "state": "Missouri",
+    "stateCode": "mo",
+    "imageUrl": "images/us_states/mo.png",
+    "alternatives": ["missouri", "state of missouri"]
+  },
+  {
+    "state": "Montana",
+    "stateCode": "mt",
+    "imageUrl": "images/us_states/mt.png",
+    "alternatives": ["montana", "state of montana"]
+  },
+  {
+    "state": "Nebraska",
+    "stateCode": "ne",
+    "imageUrl": "images/us_states/ne.png",
+    "alternatives": ["nebraska", "state of nebraska"]
+  },
+  {
+    "state": "Nevada",
+    "stateCode": "nv",
+    "imageUrl": "images/us_states/nv.png",
+    "alternatives": ["nevada", "state of nevada"]
+  },
+  {
+    "state": "New Hampshire",
+    "stateCode": "nh",
+    "imageUrl": "images/us_states/nh.png",
+    "alternatives": ["new hampshire", "state of new hampshire"]
+  },
+  {
+    "state": "New Jersey",
+    "stateCode": "nj",
+    "imageUrl": "images/us_states/nj.png",
+    "alternatives": ["new jersey", "state of new jersey"]
+  },
+  {
+    "state": "New Mexico",
+    "stateCode": "nm",
+    "imageUrl": "images/us_states/nm.png",
+    "alternatives": ["new mexico", "state of new mexico"]
+  },
+  {
+    "state": "New York",
+    "stateCode": "ny",
+    "imageUrl": "images/us_states/ny.png",
+    "alternatives": ["new york", "state of new york"]
+  },
+  {
+    "state": "North Carolina",
+    "stateCode": "nc",
+    "imageUrl": "images/us_states/nc.png",
+    "alternatives": ["north carolina", "state of north carolina"]
+  },
+  {
+    "state": "North Dakota",
+    "stateCode": "nd",
+    "imageUrl": "images/us_states/nd.png",
+    "alternatives": ["north dakota", "state of north dakota"]
+  },
+  {
+    "state": "Ohio",
+    "stateCode": "oh",
+    "imageUrl": "images/us_states/oh.png",
+    "alternatives": ["ohio", "state of ohio"]
+  },
+  {
+    "state": "Oklahoma",
+    "stateCode": "ok",
+    "imageUrl": "images/us_states/ok.png",
+    "alternatives": ["oklahoma", "state of oklahoma"]
+  },
+  {
+    "state": "Oregon",
+    "stateCode": "or",
+    "imageUrl": "images/us_states/or.png",
+    "alternatives": ["oregon", "state of oregon"]
+  },
+  {
+    "state": "Pennsylvania",
+    "stateCode": "pa",
+    "imageUrl": "images/us_states/pa.png",
+    "alternatives": ["pennsylvania", "state of pennsylvania"]
+  },
+  {
+    "state": "Rhode Island",
+    "stateCode": "ri",
+    "imageUrl": "images/us_states/ri.png",
+    "alternatives": ["rhode island", "state of rhode island"]
+  },
+  {
+    "state": "South Carolina",
+    "stateCode": "sc",
+    "imageUrl": "images/us_states/sc.png",
+    "alternatives": ["south carolina", "state of south carolina"]
+  },
+  {
+    "state": "South Dakota",
+    "stateCode": "sd",
+    "imageUrl": "images/us_states/sd.png",
+    "alternatives": ["south dakota", "state of south dakota"]
+  },
+  {
+    "state": "Tennessee",
+    "stateCode": "tn",
+    "imageUrl": "images/us_states/tn.png",
+    "alternatives": ["tennessee", "state of tennessee"]
+  },
+  {
+    "state": "Texas",
+    "stateCode": "tx",
+    "imageUrl": "images/us_states/tx.png",
+    "alternatives": ["texas", "state of texas"]
+  },
+  {
+    "state": "Utah",
+    "stateCode": "ut",
+    "imageUrl": "images/us_states/ut.png",
+    "alternatives": ["utah", "state of utah"]
+  },
+  {
+    "state": "Vermont",
+    "stateCode": "vt",
+    "imageUrl": "images/us_states/vt.png",
+    "alternatives": ["vermont", "state of vermont"]
+  },
+  {
+    "state": "Virginia",
+    "stateCode": "va",
+    "imageUrl": "images/us_states/va.png",
+    "alternatives": ["virginia", "state of virginia"]
+  },
+  {
+    "state": "Washington",
+    "stateCode": "wa",
+    "imageUrl": "images/us_states/wa.png",
+    "alternatives": ["washington", "state of washington"]
+  },
+  {
+    "state": "West Virginia",
+    "stateCode": "wv",
+    "imageUrl": "images/us_states/wv.png",
+    "alternatives": ["west virginia", "state of west virginia"]
+  },
+  {
+    "state": "Wisconsin",
+    "stateCode": "wi",
+    "imageUrl": "images/us_states/wi.png",
+    "alternatives": ["wisconsin", "state of wisconsin"]
+  },
+  {
+    "state": "Wyoming",
+    "stateCode": "wy",
+    "imageUrl": "images/us_states/wy.png",
+    "alternatives": ["wyoming", "state of wyoming"]
+  }
+]

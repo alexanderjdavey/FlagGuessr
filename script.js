@@ -1,5 +1,6 @@
 let flags = [];
 let remainingFlags;
+let remainingUSStates = [];
 let currentFlag;
 let correctGuesses = 0;
 let incorrectGuesses = 0;
@@ -27,6 +28,9 @@ document.getElementById("hardselect").addEventListener("change", () => {
 document.getElementById("capitalselect").addEventListener("change", () => {
   gameMode = "capital";
 });
+document.getElementById("usstatesselect").addEventListener("change", () => {
+  gameMode = "usstates";
+});
 
 // Fetch the flag data from flags.json
 fetch("flags.json")
@@ -35,8 +39,21 @@ fetch("flags.json")
     flags = data;
   });
 
+// Fetch the US State flag data from us_states.json
+fetch("us_states.json")
+  .then((response) => response.json())
+  .then((data) => {
+    usStates = data;
+  });
+
+// Define random element function for the states mode
+function getRandomElement(arr) {
+  return arr[Math.floor(Math.random() * arr.length)];
+}
+
 function startGame() {
   remainingFlags = [...flags];
+  remainingUSStates = [...usStates];
   correctGuesses = 0;
   incorrectGuesses = 0;
   updateCorrectGuesses();
@@ -48,6 +65,8 @@ function startGame() {
   if (gameMode === "capital") {
     document.getElementById("country-input").placeholder =
       "Type the capital city";
+  } else if (gameMode === "usstates") {
+    document.getElementById("country-input").placeholder = "Type the US State";
   } else {
     document.getElementById("country-input").placeholder =
       "Type the country name";
@@ -125,12 +144,18 @@ function updateIncorrectGuesses() {
 }
 
 function skipFlag() {
-  if (remainingFlags.length > 0) {
+  let remainingList =
+    gameMode === "usstates" ? remainingUSStates : remainingFlags;
+
+  if (remainingList.length > 0) {
     incorrectGuesses++;
     document.getElementById("country-input").style.borderBottomColor = "#888";
     if (gameMode === "capital") {
       document.getElementById("prevanswer").innerHTML =
         "The capital of " + currentFlag.country + " is " + currentFlag.capital;
+    } else if (gameMode === "usstates") {
+      document.getElementById("prevanswer").innerHTML =
+        "The correct answer was " + currentFlag.state;
     } else {
       document.getElementById("prevanswer").innerHTML =
         "The flag was: " + currentFlag.country;
@@ -144,10 +169,17 @@ function skipFlag() {
 }
 
 function pickNewFlag() {
-  const randomIndex = Math.floor(Math.random() * remainingFlags.length);
-  currentFlag = remainingFlags[randomIndex];
-  remainingFlags.splice(randomIndex, 1);
-  document.querySelector(".flag-img").src = currentFlag.imageUrl;
+  if (gameMode === "usstates") {
+    const randomIndex = Math.floor(Math.random() * remainingUSStates.length);
+    currentFlag = remainingUSStates[randomIndex];
+    remainingUSStates.splice(randomIndex, 1);
+    document.querySelector(".flag-img").src = currentFlag.imageUrl;
+  } else {
+    const randomIndex = Math.floor(Math.random() * remainingFlags.length);
+    currentFlag = remainingFlags[randomIndex];
+    remainingFlags.splice(randomIndex, 1);
+    document.querySelector(".flag-img").src = currentFlag.imageUrl;
+  }
 }
 
 function checkGuess() {
@@ -164,6 +196,10 @@ function checkGuess() {
     } else {
       isCorrect = input.value.toLowerCase() === capital.toLowerCase();
     }
+  } else if (gameMode === "usstates") {
+    isCorrect =
+      input.value.toLowerCase() === currentFlag.state.toLowerCase() ||
+      currentFlag.alternatives.includes(input.value);
   } else {
     isCorrect =
       input.value.toLowerCase() === currentFlag.country.toLowerCase() ||
@@ -182,13 +218,19 @@ function checkGuess() {
         currentFlag.country +
         " is " +
         currentFlag.capital;
+    } else if (gameMode === "usstates") {
+      document.getElementById("prevanswer").innerHTML =
+        "Correct, the flag was: " + currentFlag.state;
     } else {
       document.getElementById("prevanswer").innerHTML =
         "Correct, the flag was: " + currentFlag.country;
     }
     //
     document.getElementById("prevanswer").style.color = "#67e674";
-    if (remainingFlags.length > 0) {
+    if (
+      (gameMode === "usstates" && remainingUSStates.length > 0) ||
+      (gameMode !== "usstates" && remainingFlags.length > 0)
+    ) {
       pickNewFlag();
     } else {
       document.querySelector(".flag-img").src = "";
@@ -220,6 +262,8 @@ function endGame() {
     message = `Wow! In 60 seconds you got ${correctGuesses} correct flags and skipped ${incorrectGuesses} flags.`;
   } else if (gameMode === "hard") {
     message = `You managed to get ${correctGuesses} correct flags. The last flag was: ${currentFlag.country}`;
+  } else if (gameMode === "usstates") {
+    message = `You managed to get ${correctGuesses} and skipped ${incorrectGuesses} flags.`;
   } else {
     message = `You've finished in ${timer} seconds with ${incorrectGuesses} skips and ${correctGuesses} correct guesses!`;
   }
