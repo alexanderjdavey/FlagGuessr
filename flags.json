@@ -681,7 +681,7 @@
     "imageUrl": "images/MD.png",
     "alternatives": [],
     "capital": ["Chișinău"],
-    "altcapital": ["Chișinău, Chisinau", "chișinău, chisinau"]
+    "altcapital": ["Chișinău", "Chisinau", "chișinău", "chisinau"]
   },
   {
     "country": "Monaco",
@@ -754,7 +754,7 @@
     "imageUrl": "images/NI.png",
     "alternatives": [],
     "capital": ["Managua"],
-    "altcapital": ["Manágua", "managua, manágua"]
+    "altcapital": ["Manágua", "managua", "manágua"]
   },
   {
     "country": "Niger",
@@ -1095,7 +1095,9 @@
     "country": "Togo",
     "imageUrl": "images/TG.png",
     "alternatives": [],
-    "capital": ["Lomé","Lome"]
+    "capital": "Lomé",
+    "altcapital": "Lome"
+   
   },
   {
     "country": "Tonga",
@@ -1143,7 +1145,8 @@
     "country": "Ukraine",
     "imageUrl": "images/UA.png",
     "alternatives": [],
-    "capital": ["Kyiv", "Kiev"]
+    "capital": "Kyiv",
+    "altcapital": "Kiev"
   },
   {
     "country": "United Arab Emirates",
