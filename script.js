@@ -263,7 +263,7 @@ function endGame() {
   } else if (gameMode === "hard") {
     message = `You managed to get ${correctGuesses} correct flags. The last flag was: ${currentFlag.country}`;
   } else if (gameMode === "usstates") {
-    message = `You managed to get ${correctGuesses} and skipped ${incorrectGuesses} flags.`;
+    message = `You managed to get ${correctGuesses} flags correct and skipped ${incorrectGuesses} flags.`;
   } else {
     message = `You've finished in ${timer} seconds with ${incorrectGuesses} skips and ${correctGuesses} correct guesses!`;
   }
