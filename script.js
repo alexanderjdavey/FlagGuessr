@@ -8,28 +8,46 @@ let timerInterval;
 let timer = 0;
 let gameMode = "normal";
 
+// Home animations
+document.getElementById("modeselect").onmousemove = (e) => {
+  for (const card of document.getElementsByClassName("card")) {
+    const rect = card.getBoundingClientRect(),
+      x = e.clientX - rect.left,
+      y = e.clientY - rect.top;
+
+    card.style.setProperty("--mouse-x", `${x}px`);
+    card.style.setProperty("--mouse-y", `${y}px`);
+  }
+};
+
 // Event listeners for controls
-document.getElementById("start-button").addEventListener("click", startGame);
 document.getElementById("reset-button").addEventListener("click", resetGame);
 document.getElementById("country-input").addEventListener("change", checkGuess);
 document.getElementById("skip-button").addEventListener("click", skipFlag);
-document.getElementById("start-button").focus();
 
 // Event listeners to select game mode
-document.getElementById("normalselect").addEventListener("change", () => {
-  gameMode = "normal";
+document.getElementById("normal-card").addEventListener("click", () => {
+  (gameMode = "normal"), startGame();
 });
-document.getElementById("countdownselect").addEventListener("change", () => {
-  gameMode = "countdown";
+document.getElementById("countdown-card").addEventListener("click", () => {
+  (gameMode = "countdown"), startGame();
 });
-document.getElementById("hardselect").addEventListener("change", () => {
-  gameMode = "hard";
+document.getElementById("hard-card").addEventListener("click", () => {
+  (gameMode = "hard"), startGame();
 });
-document.getElementById("capitalselect").addEventListener("change", () => {
-  gameMode = "capital";
+document.getElementById("capital-card").addEventListener("click", () => {
+  (gameMode = "capital"), startGame();
 });
-document.getElementById("usstatesselect").addEventListener("change", () => {
-  gameMode = "usstates";
+document.getElementById("usstates-card").addEventListener("click", () => {
+  (gameMode = "usstates"), startGame();
+});
+
+// Event listener for the credit link
+
+const creditsCard = document.querySelector("#creditscard");
+
+creditsCard.addEventListener("click", function () {
+  window.open("https://github.com/alexanderjdavey/", "_blank");
 });
 
 // Fetch the flag data from flags.json
@@ -59,8 +77,9 @@ function startGame() {
   updateCorrectGuesses();
   updateIncorrectGuesses();
   pickNewFlag();
-  document.getElementById("start-button").style.display = "none";
   document.getElementById("flag-container").style.display = "flex";
+  document.getElementById("tagline").style.display = "none";
+  document.getElementById("title").style.display = "none";
   // Set the input box text differently if its capital mode
   if (gameMode === "capital") {
     document.getElementById("country-input").placeholder =
@@ -97,6 +116,8 @@ function startGame() {
 function resetGame() {
   document.getElementById("playbuttons").style.display = "none";
   document.getElementById("infotext").style.display = "none";
+  document.getElementById("tagline").style.display = "";
+  document.getElementById("title").style.display = "";
   remainingFlags = [];
   currentFlag = undefined;
   correctGuesses = 0;
@@ -105,13 +126,11 @@ function resetGame() {
   updateCorrectGuesses();
   updateIncorrectGuesses();
   document.querySelector(".flag-img").src = "";
-  document.getElementById("country-input").style.borderBottomColor = "#888";
+  document.getElementById("country-input").style.borderBottomColor = "#232323";
   document.getElementById("country-input").value = "";
-  document.getElementById("start-button").style.display = "flex";
   document.getElementById("flag-container").style.display = "none";
   stopTimer();
-  document.getElementById("start-button").focus();
-  document.getElementById("modeselect").style.display = "block";
+  document.getElementById("modeselect").style.display = "flex";
 }
 
 function startTimer() {
@@ -149,7 +168,8 @@ function skipFlag() {
 
   if (remainingList.length > 0) {
     incorrectGuesses++;
-    document.getElementById("country-input").style.borderBottomColor = "#888";
+    document.getElementById("country-input").style.borderBottomColor =
+      "#232323";
     if (gameMode === "capital") {
       document.getElementById("prevanswer").innerHTML =
         "The capital of " + currentFlag.country + " is " + currentFlag.capital;
@@ -210,7 +230,7 @@ function checkGuess() {
     correctGuesses++;
     updateCorrectGuesses();
     input.value = "";
-    input.style.borderBottomColor = "#888";
+    input.style.borderBottomColor = "#232323";
     //Correct message (for capital and for normal game modes)
     if (gameMode === "capital") {
       document.getElementById("prevanswer").innerHTML =
@@ -237,7 +257,6 @@ function checkGuess() {
       endGame();
       document.getElementById("playbuttons").style.display = "none";
       document.getElementById("infotext").style.display = "none";
-      document.getElementById("start-button").style.display = "flex";
       document.getElementById("flag-container").style.display = "none";
     }
     if (gameMode === "hard") {

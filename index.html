@@ -1,72 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
-    <title>Flag Guessing Game</title>
-    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
-  </head>
-  <body>
-    <div class="container">
-      <h1>Flag Guessing Game</h1>
-      <div id="flag-container" style="display: none">
-        <img class="flag-img" alt="Flag" />
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="styles.css" />
+      <title>FlagGuessr - Know your flags!</title>
+      <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+   </head>
+   <body>
+      <div class="container">
+         <h1 id="title">FlagGuessr</h1>
+          <h3 id="tagline">Test your knowledge of flags from around the world with FlagGuessr – a fun and addictive game that challenges you to guess the country name from its flag!</h3>
+         <div id="flag-container" style="display: none">
+            <img class="flag-img" alt="Flag" />
+         </div>
+         <div class="info-container">
+            <div class="infotext" id="infotext">
+               <div class="infolabels" id="infolabels">
+                  <p>Time: <span id="timer">0</span> seconds</p>
+                  <p id="guesslabels">
+                     Correct guesses: <span id="correct-guesses">0</span> Skips:
+                     <span id="incorrect-guesses">0</span>
+                     <br />
+                     <br />
+                     <span id="prevanswer"></span>
+                  </p>
+               </div>
+               <input
+                  type="text"
+                  id="country-input"
+                  placeholder="Type the country name"
+                  />
+            </div>
+            <div class="button-container">
+               <div class="playbuttons" id="playbuttons" style="display: none">
+                  <button id="skip-button">Skip</button>
+                  <button id="reset-button">Reset</button>
+               </div>
+            </div>
+            <br />
+            <div id="modeselect">
+              <!-- Normal Mode Card -->
+              <div class="card" id="normal-card">
+                <div class="card-content">
+                  <div class="card-info-wrapper">
+                    <div class="card-info">
+                      <div class="card-info-title">
+                        <h2>Normal Mode</h2>
+                      </div>
+                        <h4>No time limit, all countries!</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Countdown Mode Card -->
+              <div class="card" id="countdown-card">
+                <div class="card-content">
+                  <div class="card-info-wrapper">
+                    <div class="card-info">
+                      <div class="card-info-title">
+                        <h2>Countdown Mode</h2>
+                      </div>
+                        <h4>Race against the clock, all countries!</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Hard Mode Card -->
+              <div class="card" id="hard-card">
+                <div class="card-content">
+                  <div class="card-info-wrapper">
+                    <div class="card-info">
+                      <div class="card-info-title">
+                        <h2>Hard Mode</h2>
+                      </div>
+                        <h4>No time limit, only 10 random countries!</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Capital Mode Card -->
+              <div class="card" id="capital-card">
+                <div class="card-content">
+                  <div class="card-info-wrapper">
+                    <div class="card-info">
+                      <div class="card-info-title">
+                        <h2>Capital Mode</h2>
+                      </div>
+                        <h4>No time limit, capitals only!</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- US States Mode Card -->
+              <div class="card" id="usstates-card">
+                <div class="card-content">
+                  <div class="card-info-wrapper">
+                    <div class="card-info">
+                      <div class="card-info-title">
+                        <h2>US States Mode</h2>
+                      </div>
+                        <h4>No time limit, US states only!</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Credits Card -->
+              <div class="card" id="creditscard">
+                <div class="card-content">
+                  <div class="card-info-wrapper">
+                    <div class="card-info">
+                      <div class="card-info-title">
+                        <h2>Built by Alex</h2>
+                      </div>
+                      <h4>Report bugs or suggest a feature!</a></h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+         </div>
       </div>
-      <div class="info-container">
-        <div class="infotext" id="infotext">
-          <div class="infolabels" id="infolabels">
-            <p>Time: <span id="timer">0</span> seconds</p>
-            <p id="guesslabels">
-              Correct guesses: <span id="correct-guesses">0</span> Skips:
-              <span id="incorrect-guesses">0</span>
-              <br />
-              <br />
-              <span id="prevanswer"></span>
-            </p>
-          </div>
-          <input
-            type="text"
-            id="country-input"
-            placeholder="Type the country name"
-          />
-        </div>
-        <div class="button-container">
-          <button id="start-button">Start</button>
-          <div class="playbuttons" id="playbuttons" style="display: none">
-            <button id="skip-button">Skip</button>
-            <button id="reset-button">Reset</button>
-          </div>
-        </div>
-        <br />
-        <div id="modeselect">
-          <label
-            ><input type="radio" id="normalselect" name="mode" checked /> Normal
-            Mode</label
-          >
-          <label
-            ><input type="radio" id="countdownselect" name="mode" /> Countdown
-            Mode</label
-          >
-          <br />
-          <br />
-          <label
-            ><input type="radio" id="hardselect" name="mode" /> Hard Mode</label
-          >
-          <label
-            ><input type="radio" id="capitalselect" name="mode" /> Capital
-            Cities Mode</label
-          >
-          <br />
-          <br />
-          <label
-            ><input type="radio" id="usstatesselect" name="mode" /> US
-            States</label
-          >
-        </div>
+      <h4></h4>
       </div>
-      <h4><a href="https://github.com/alexanderjdavey/">Built by Alex</a></h4>
-    </div>
-    <script src="script.js"></script>
-  </body>
+      <script src="script.js"></script>
+   </body>
 </html>
