@@ -1,152 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-      <link rel="stylesheet" href="styles.css" />
-      <title>FlagGuessr - Know your flags!</title>
-      <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
-   </head>
-   <body>
-      <div class="container">
-        <div class="textcontainer">
-          <h1 id="title">FlagGuessr</h1>
-          <h3 id="tagline">Test your knowledge of flags from around the world with FlagGuessr – a fun and addictive game that challenges you to guess the country name from its flag!</h3>
-        </div>
-         <div id="flag-container" style="display: none">
-            <img class="flag-img" alt="Flag" />
-         </div>
-         <div class="info-container">
-            <div class="infotext" id="infotext">
-               <div class="infolabels" id="infolabels">
-                  <p>Time: <span id="timer">0</span> seconds</p>
-                  <p id="guesslabels">
-                     Correct guesses: <span id="correct-guesses">0</span> Skips:
-                     <span id="incorrect-guesses">0</span>
-                     <br />
-                     <br />
-                     <span id="prevanswer"></span>
-                  </p>
-               </div>
-               <input
-                  type="text"
-                  id="country-input"
-                  placeholder="Type the country name"
-                  />
-            </div>
-            <div class="button-container">
-               <div class="playbuttons" id="playbuttons" style="display: none">
-                  <button id="skip-button">Skip</button>
-                  <button id="reset-button">Reset</button>
-               </div>
-            </div>
-            <br />
-            <div id="modeselect">
-              <!-- Normal Mode Card -->
-              <div class="card" id="normal-card">
-                <div class="card-content">
-                  <div class="card-image">
-                    <i class="fas fa-solid fa-globe" style="color: #b4b4b4;"></i>
-                  </div>
-                  <div class="card-info-wrapper">
-                    <div class="card-info">
-                      <div class="card-info-title">
-                        <h2>Normal Mode</h2>
-                      </div>
-                        <h4>No time limit, all countries!</h4>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Countdown Mode Card -->
-              <div class="card" id="countdown-card">
-                <div class="card-content">
-                  <div class="card-image">
-                    <i class="fas fa-solid fa-clock" style="color: #b4b4b4;"></i>
-                  </div>
-                  <div class="card-info-wrapper">
-                    <div class="card-info">
-                      <div class="card-info-title">
-                        <h2>Countdown Mode</h2>
-                      </div>
-                        <h4>Race against the clock, all countries!</h4>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Hard Mode Card -->
-              <div class="card" id="hard-card">
-                <div class="card-content">
-                  <div class="card-image">
-                    <i class="fas fa-solid fa-bomb" style="color: #b4b4b4;"></i>
-                  </div>
-                  <div class="card-info-wrapper">
-                    <div class="card-info">
-                      <div class="card-info-title">
-                        <h2>Hard Mode</h2>
-                      </div>
-                        <h4>10 Seconds per guess, no mistakes.</h4>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Capital Mode Card -->
-              <div class="card" id="capital-card">
-                <div class="card-content">
-                  <div class="card-image">
-                    <i class="fas fa-solid fa-city" style="color: #b4b4b4;"></i>
-                  </div>
-                  <div class="card-info-wrapper">
-                    <div class="card-info">
-                      <div class="card-info-title">
-                        <h2>Capital Mode</h2>
-                      </div>
-                        <h4>No time limit, capitals only!</h4>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!-- US States Mode Card -->
-              <div class="card" id="usstates-card">
-                <div class="card-content">
-                  <div class="card-image">
-                    <i class="fas fa-solid fa-flag-usa" style="color: #b4b4b4;"></i>
-                  </div>
-                  <div class="card-info-wrapper">
-                    <div class="card-info">
-                      <div class="card-info-title">
-                        <h2>US States Mode</h2>
-                      </div>
-                        <h4>No time limit, US states only!</h4>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Credits Card -->
-              <div class="card" id="creditscard">
-                <div class="card-content">
-                  <div class="card-image">
-                  <i class="fas fa-solid fa-hammer" style="color: #b4b4b4;"></i>
-                  </div>
-                  <div class="card-info-wrapper">
-                    <div class="card-info">
-                      <div class="card-info-title">
-                        <h2>Built by Alex</h2>
-                      </div>
-                      <h4>Report bugs or suggest a feature!</a></h4>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-         </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>FlagGuessr - Know your flags!</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="textcontainer">
+        <h1 id="title">FlagGuessr</h1>
+        <h3 id="tagline">
+          Test your knowledge of flags from around the world with FlagGuessr – a
+          fun and addictive game that challenges you to guess the country name
+          from its flag!
+        </h3>
       </div>
-      <script src="script.js"></script>
-   </body>
+      <div id="flag-container" style="display: none">
+        <img class="flag-img" alt="Flag" />
+      </div>
+      <div class="info-container">
+        <div class="infotext" id="infotext">
+          <div class="infolabels" id="infolabels">
+            <p>Time: <span id="timer">0</span> seconds</p>
+            <p id="guesslabels">
+              Correct guesses: <span id="correct-guesses">0</span> Skips:
+              <span id="incorrect-guesses">0</span>
+              <br />
+              <br />
+              <span id="prevanswer"></span>
+            </p>
+          </div>
+          <input
+            type="text"
+            id="country-input"
+            placeholder="Type the country name"
+          />
+        </div>
+        <div class="button-container">
+          <div class="playbuttons" id="playbuttons" style="display: none">
+            <button id="skip-button">Skip</button>
+            <button id="reset-button">Reset</button>
+          </div>
+        </div>
+        <br />
+        <div id="modeselect">
+          <!-- Normal Mode Card -->
+          <div class="card" id="normal-card">
+            <div class="card-content">
+              <div class="card-image">
+                <i class="fas fa-solid fa-globe" style="color: #b4b4b4"></i>
+              </div>
+              <div class="card-info-wrapper">
+                <div class="card-info">
+                  <div class="card-info-title">
+                    <h2>Normal Mode</h2>
+                  </div>
+                  <h4>No time limit, all countries!</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Countdown Mode Card -->
+          <div class="card" id="countdown-card">
+            <div class="card-content">
+              <div class="card-image">
+                <i class="fas fa-solid fa-clock" style="color: #b4b4b4"></i>
+              </div>
+              <div class="card-info-wrapper">
+                <div class="card-info">
+                  <div class="card-info-title">
+                    <h2>Countdown Mode</h2>
+                  </div>
+                  <h4>Race against the clock, all countries!</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Hard Mode Card -->
+          <div class="card" id="hard-card">
+            <div class="card-content">
+              <div class="card-image">
+                <i class="fas fa-solid fa-bomb" style="color: #b4b4b4"></i>
+              </div>
+              <div class="card-info-wrapper">
+                <div class="card-info">
+                  <div class="card-info-title">
+                    <h2>Hard Mode</h2>
+                  </div>
+                  <h4>10 Seconds per guess, no mistakes.</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Capital Mode Card -->
+          <div class="card" id="capital-card">
+            <div class="card-content">
+              <div class="card-image">
+                <i class="fas fa-solid fa-city" style="color: #b4b4b4"></i>
+              </div>
+              <div class="card-info-wrapper">
+                <div class="card-info">
+                  <div class="card-info-title">
+                    <h2>Capital Mode</h2>
+                  </div>
+                  <h4>No time limit, capitals only!</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- US States Mode Card -->
+          <div class="card" id="usstates-card">
+            <div class="card-content">
+              <div class="card-image">
+                <i class="fas fa-solid fa-flag-usa" style="color: #b4b4b4"></i>
+              </div>
+              <div class="card-info-wrapper">
+                <div class="card-info">
+                  <div class="card-info-title">
+                    <h2>US States Mode</h2>
+                  </div>
+                  <h4>No time limit, US states only!</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Credits Card -->
+          <div class="card" id="creditscard">
+            <div class="card-content">
+              <div class="card-image">
+                <i class="fas fa-solid fa-hammer" style="color: #b4b4b4"></i>
+              </div>
+              <div class="card-info-wrapper">
+                <div class="card-info">
+                  <div class="card-info-title">
+                    <h2>Built by Alex</h2>
+                  </div>
+                  <h4>Report bugs or suggest a feature!</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>
