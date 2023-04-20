@@ -19,11 +19,16 @@ textarea:focus {
   margin: 0 auto;
 }
 
-.container > h1 {
+.textcontainer {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.textcontainer > h1 {
   text-align: left;
 }
 
-.container > h3 {
+.textcontainer > h3 {
   text-align: left;
   padding-top: 10px;
 }
@@ -83,7 +88,6 @@ button:focus {
 .info-container {
   padding-bottom: 20px;
   justify-content: center;
-  align-items: center;
 }
 
 #country-input {
@@ -280,14 +284,19 @@ i {
 
 /* -- ↓ ↓ ↓ some responsiveness ↓ ↓ ↓ -- */
 
-@media (max-width: 1000px) {
+@media (max-width: 760px) {
   body {
     align-items: flex-start;
     overflow: auto;
   }
 
+  .container {
+    padding: 10%;
+    overflow: auto;
+  }
+
   #modeselect {
-    max-width: 1000px;
+    max-width: 760px;
     padding: 10px 0px;
   }
 
@@ -332,24 +341,6 @@ i {
   .card {
     width: 100%;
   }
-}
-
-/* -- ↓ ↓ ↓ YouTube link styles ↓ ↓ ↓ -- */
-
-#youtube-link {
-  bottom: 10px;
-}
-
-#youtube-link > i {
-  color: rgb(239, 83, 80);
-}
-
-#source-link {
-  bottom: 60px;
-}
-
-#source-link > i {
-  color: rgb(94, 106, 210);
 }
 
 .link {
