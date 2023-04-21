@@ -9,6 +9,37 @@ body {
   align-items: center;
 }
 
+/* -- Autocomplete -- */
+
+.autocomplete {
+  position: relative;
+  display: inline-block;
+}
+
+.suggestions {
+  display: none;
+  position: absolute;
+  background-color: #1a1a1a;
+  border: 1px solid #272727;
+  border-radius: 5px;
+  width: 100%;
+  z-index: 100;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.suggestions div {
+  padding: 10px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.suggestions div:hover {
+  background-color: #151515;
+}
+
+/* -- Autocomplete -- */
+
 input:focus,
 textarea:focus {
   outline: none;
@@ -130,8 +161,6 @@ a:visited {
   text-decoration: none;
 }
 
-/* -- ↓ ↓ ↓ extra card content styles ↓ ↓ ↓ -- */
-
 :root {
   --bg-color: #141414;
   --card-color: #171717;
@@ -219,7 +248,7 @@ body {
   z-index: 2;
 }
 
-/* -- ↓ ↓ ↓ extra card content styles ↓ ↓ ↓ -- */
+/* -- Card Styling -- */
 
 h1,
 h2,
@@ -282,7 +311,7 @@ i {
   text-align: left;
 }
 
-/* -- ↓ ↓ ↓ some responsiveness ↓ ↓ ↓ -- */
+/* Responsive Settings */
 
 @media (max-width: 760px) {
   body {
@@ -291,18 +320,34 @@ i {
   }
 
   .container {
-    padding: 10%;
+    padding: 5%;
+    padding-top: 10%;
     overflow: auto;
+  }
+
+  .flag-container {
+    padding: 25%;
+    padding-top: 10%;
+    overflow: auto;
+  }
+
+  .flag-img {
+    padding: 5%;
+    max-width: 75%;
+  }
+
+  .country-input {
+    max-width: 75%;
   }
 
   #modeselect {
     max-width: 760px;
-    padding: 10px 0px;
+    padding: 5px 0px;
   }
 
   .card {
     flex-shrink: 1;
-    width: calc(50% - 4px);
+    width: calc(75% - 4px);
   }
 }
 
@@ -329,6 +374,21 @@ i {
 
   .card-info-title > h3 {
     font-size: 0.9em;
+  }
+
+  .flag-container {
+    padding: 25%;
+    padding-top: 10%;
+    overflow: auto;
+  }
+
+  .flag-img {
+    padding: 5%;
+    max-width: 75%;
+  }
+
+  .country-input {
+    max-width: 75%;
   }
 
   .card-info-title > h4 {

@@ -7,6 +7,7 @@ let incorrectGuesses = 0;
 let timerInterval;
 let timer = 0;
 let gameMode = "normal";
+let items = [];
 
 // Home animations
 document.getElementById("modeselect").onmousemove = (e) => {
@@ -22,8 +23,13 @@ document.getElementById("modeselect").onmousemove = (e) => {
 
 // Event listeners for controls
 document.getElementById("reset-button").addEventListener("click", resetGame);
-document.getElementById("country-input").addEventListener("change", checkGuess);
 document.getElementById("skip-button").addEventListener("click", skipFlag);
+// country input must be defined like this so it is not called twice on clicking autocorrect suggestions
+document.getElementById("country-input").addEventListener("keyup", (e) => {
+  if (e.key === "Enter") {
+    checkGuess();
+  }
+});
 
 // Event listeners to select game mode
 document.getElementById("normal-card").addEventListener("click", () => {
@@ -50,18 +56,90 @@ creditsCard.addEventListener("click", function () {
   window.open("https://github.com/alexanderjdavey/", "_blank");
 });
 
-// Fetch the flag data from flags.json
+// Autocomplete Integration
+
+const countryInput = document.getElementById("country-input");
+const suggestions = document.getElementById("suggestions");
+
+// Defining the items within the autocomplete's suggestions
+
+function updateItems() {
+  if (gameMode === "usstates") {
+    items = usStates.map((item) => item.state);
+  } else {
+    items = flags.map((item) => item.country);
+  }
+}
+
+// Autocomplete's Event Listener
+
+countryInput.addEventListener("input", (e) => {
+  const searchTerm = e.target.value.toLowerCase();
+  suggestions.innerHTML = "";
+
+  if (!searchTerm) {
+    suggestions.style.display = "none";
+    return;
+  }
+  // Filtered items includes both item name and alternatives as define in the json
+  const filteredItems = items.filter((item) => {
+    const itemLowerCase = item.toLowerCase();
+    const searchTermLowerCase = searchTerm.toLowerCase();
+
+    if (itemLowerCase.includes(searchTermLowerCase)) {
+      return true;
+    }
+
+    const currentItem = flags.find(
+      (flag) => flag.country.toLowerCase() === itemLowerCase
+    );
+    if (currentItem) {
+      return currentItem.alternatives.some((alternative) => {
+        return alternative.toLowerCase().includes(searchTermLowerCase);
+      });
+    }
+
+    return false;
+  });
+  if (filteredItems.length > 0) {
+    filteredItems.forEach((item) => {
+      const suggestion = document.createElement("div");
+      suggestion.textContent = item;
+      suggestion.addEventListener("click", () => {
+        countryInput.value = item;
+        suggestions.style.display = "none";
+        checkGuess();
+      });
+
+      suggestions.appendChild(suggestion);
+    });
+    suggestions.style.display = "block";
+  } else {
+    suggestions.style.display = "none";
+  }
+});
+
+// Clearing the suggestions
+
+function clearSuggestions() {
+  suggestions.innerHTML = "";
+  suggestions.style.display = "none";
+}
+
+// Fetching the flag data from flags.json
 fetch("flags.json")
   .then((response) => response.json())
   .then((data) => {
     flags = data;
+    updateItems();
   });
 
-// Fetch the US State flag data from us_states.json
+// Fetching the US State flag data from us_states.json
 fetch("us_states.json")
   .then((response) => response.json())
   .then((data) => {
     usStates = data;
+    updateItems();
   });
 
 // Define random element function for the states mode
@@ -74,6 +152,7 @@ function startGame() {
   remainingUSStates = [...usStates];
   correctGuesses = 0;
   incorrectGuesses = 0;
+  updateItems();
   updateCorrectGuesses();
   updateIncorrectGuesses();
   pickNewFlag();
@@ -125,6 +204,7 @@ function resetGame() {
   timer = 0;
   updateCorrectGuesses();
   updateIncorrectGuesses();
+  clearSuggestions();
   document.querySelector(".flag-img").src = "";
   document.getElementById("country-input").style.borderBottomColor = "#232323";
   document.getElementById("country-input").value = "";
@@ -194,17 +274,22 @@ function pickNewFlag() {
     currentFlag = remainingUSStates[randomIndex];
     remainingUSStates.splice(randomIndex, 1);
     document.querySelector(".flag-img").src = currentFlag.imageUrl;
+    clearSuggestions();
+    document.getElementById("country-input").focus();
   } else {
     const randomIndex = Math.floor(Math.random() * remainingFlags.length);
     currentFlag = remainingFlags[randomIndex];
     remainingFlags.splice(randomIndex, 1);
     document.querySelector(".flag-img").src = currentFlag.imageUrl;
+    clearSuggestions();
+    document.getElementById("country-input").focus();
   }
 }
 
 function checkGuess() {
   const input = document.getElementById("country-input");
   let isCorrect = false;
+  clearSuggestions();
 
   if (gameMode === "capital") {
     let capital = currentFlag.capital;

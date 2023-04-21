@@ -6,6 +6,7 @@
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      defer
     />
     <link rel="stylesheet" href="styles.css" />
     <title>FlagGuessr - Know your flags!</title>
@@ -36,11 +37,15 @@
               <span id="prevanswer"></span>
             </p>
           </div>
-          <input
-            type="text"
-            id="country-input"
-            placeholder="Type the country name"
-          />
+          <div class="autocomplete">
+            <input
+              type="text"
+              id="country-input"
+              placeholder="Type your guess"
+              autocomplete="off"
+            />
+            <div id="suggestions" class="suggestions"></div>
+          </div>
         </div>
         <div class="button-container">
           <div class="playbuttons" id="playbuttons" style="display: none">
