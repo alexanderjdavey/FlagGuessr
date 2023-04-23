@@ -66,6 +66,14 @@ const suggestions = document.getElementById("suggestions");
 function updateItems() {
   if (gameMode === "usstates") {
     items = usStates.map((item) => item.state);
+  } else if (gameMode === "capital") {
+    items = flags.flatMap((item) => {
+      if (Array.isArray(item.capital)) {
+        return item.capital;
+      } else {
+        return item.capital;
+      }
+    });
   } else {
     items = flags.map((item) => item.country);
   }
