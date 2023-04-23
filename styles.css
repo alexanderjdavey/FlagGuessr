@@ -14,6 +14,7 @@ body {
 .autocomplete {
   position: relative;
   display: inline-block;
+  margin-bottom: 20px;
 }
 
 .suggestions {
@@ -75,9 +76,10 @@ textarea:focus {
 
 .flag-img {
   width: 100%;
-  max-width: 400px;
+  max-width: 450px;
   height: 300px;
   object-fit: contain;
+  border-radius: 2%;
 }
 
 .button-container {
@@ -89,12 +91,19 @@ textarea:focus {
 
 button {
   margin: 5px;
+  background-color: rgb(69, 69, 69);
+  color: #fff;
   padding: 10px;
   padding-left: 60px;
   padding-right: 60px;
-  font-size: 14px;
+  font-size: 15px;
   border: none;
   border-radius: 5px;
+}
+
+button:hover {
+  background-color: #737373;
+  border: #fff;
 }
 
 button:focus {
@@ -219,8 +228,8 @@ body {
 
 .card::before {
   background: radial-gradient(
-    800px circle at var(--mouse-x) var(--mouse-y),
-    rgba(255, 255, 255, 0.06),
+    1000px circle at var(--mouse-x) var(--mouse-y),
+    rgba(189, 189, 189, 0.201),
     transparent 40%
   );
   z-index: 3;
@@ -228,8 +237,8 @@ body {
 
 .card::after {
   background: radial-gradient(
-    600px circle at var(--mouse-x) var(--mouse-y),
-    rgba(255, 255, 255, 0.4),
+    1000px circle at var(--mouse-x) var(--mouse-y),
+    rgba(199, 199, 199, 0.4),
     transparent 40%
   );
   z-index: 1;
@@ -275,7 +284,7 @@ i {
 
 .card-image > i {
   font-size: 6em;
-  opacity: 0.25;
+  opacity: 0.5;
 }
 
 .card-info-wrapper {
@@ -305,7 +314,7 @@ i {
   text-align: left;
 }
 
-.card-info-title > h4 {
+.card-info > h4 {
   color: rgba(255, 255, 255, 0.5);
   font-size: 1em;
   text-align: left;
