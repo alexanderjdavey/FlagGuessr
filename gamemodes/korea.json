@@ -1,0 +1,142 @@
+[
+  {
+    "answer": "Seoul",
+    "imageUrl": "images/korea/seoul.png",
+    "alternatives": ["서울"]
+  },
+  {
+    "answer": "Ansan",
+    "imageUrl": "images/korea/ansan.png",
+    "alternatives": ["안산", "안산시"]
+  },
+  {
+    "answer": "Anyang",
+    "imageUrl": "images/korea/anyang.png",
+    "alternatives": ["안양", "안양시"]
+  },
+  {
+    "answer": "Bucheon",
+    "imageUrl": "images/korea/bucheon.png",
+    "alternatives": []
+  },
+  {
+    "answer": "Busan",
+    "imageUrl": "images/korea/busan.png",
+    "alternatives": []
+  },
+  {
+    "answer": "Chuncheon",
+    "imageUrl": "images/korea/chuncheon.png",
+    "alternatives": []
+  },
+  {
+    "answer": "Daegu",
+    "imageUrl": "images/korea/daegu.png",
+    "alternatives": []
+  },
+  {
+    "answer": "Daejeon",
+    "imageUrl": "images/korea/daejeon.png",
+    "alternatives": []
+  },
+  {
+    "answer": "Gangneung",
+    "imageUrl": "images/korea/gangneung.png",
+    "alternatives": []
+  },
+  {
+    "answer": "Gimpo",
+    "imageUrl": "images/korea/gimpo.png",
+    "alternatives": []
+  },
+  {
+    "answer": "Goyang",
+    "imageUrl": "images/korea/goyang.png",
+    "alternatives": []
+  },
+  {
+    "answer": "Gwangju",
+    "imageUrl": "images/korea/gwangju.png",
+    "alternatives": []
+  },
+  {
+    "answer": "Hwaseong",
+    "imageUrl": "images/korea/hwaseong.png",
+    "alternatives": []
+  },
+  {
+    "answer": "Incheon",
+    "imageUrl": "images/korea/incheon.png",
+    "alternatives": []
+  },
+  {
+    "answer": "Inje",
+    "imageUrl": "images/korea/inje.png",
+    "alternatives": []
+  },
+  {
+    "answer": "Jeju",
+    "imageUrl": "images/korea/jeju.png",
+    "alternatives": []
+  },
+  {
+    "answer": "Namyangju",
+    "imageUrl": "images/korea/namyangju.png",
+    "alternatives": []
+  },
+  {
+    "answer": "Samcheok",
+    "imageUrl": "images/korea/samcheok.png",
+    "alternatives": []
+  },
+  {
+    "answer": "Sejong",
+    "imageUrl": "images/korea/sejong.png",
+    "alternatives": []
+  },
+  {
+    "answer": "Seogwipo",
+    "imageUrl": "images/korea/seogwipo.png",
+    "alternatives": []
+  },
+  {
+    "answer": "Seongnam",
+    "imageUrl": "images/korea/seongnam.png",
+    "alternatives": []
+  },
+  {
+    "answer": "Sokcho",
+    "imageUrl": "images/korea/sokcho.png",
+    "alternatives": []
+  },
+  {
+    "answer": "Suwon",
+    "imageUrl": "images/korea/suwon.png",
+    "alternatives": []
+  },
+  {
+    "answer": "Ulsan",
+    "imageUrl": "images/korea/ulsan.png",
+    "alternatives": []
+  },
+  {
+    "answer": "Wonju",
+    "imageUrl": "images/korea/wonju.png",
+    "alternatives": []
+  },
+  {
+    "answer": "Yangyang",
+    "imageUrl": "images/korea/yangyang.png",
+    "alternatives": []
+  },
+  {
+    "answer": "Yeoju",
+    "imageUrl": "images/korea/yeoju.png",
+    "alternatives": []
+  },
+  {
+    "answer": "Yongin",
+    "imageUrl": "images/korea/yongin.png",
+    "alternatives": []
+  }
+]

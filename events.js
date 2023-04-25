@@ -24,6 +24,9 @@ document.getElementById("capital-card").addEventListener("click", () => {
 document.getElementById("usstates-card").addEventListener("click", () => {
   (gameMode = "usstates"), startGame();
 });
+document.getElementById("korea-card").addEventListener("click", () => {
+  (gameMode = "korea"), startGame();
+});
 
 // Event listener for the credit link
 

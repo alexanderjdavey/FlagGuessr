@@ -1,6 +1,7 @@
 let flags = [];
 let remainingFlags;
 let remainingUSStates = [];
+let koreanItems = [];
 let currentFlag;
 let correctGuesses = 0;
 let incorrectGuesses = 0;
@@ -25,13 +26,15 @@ function updateItems() {
         return item.capital;
       }
     });
+  } else if (gameMode === "korea") {
+    items = koreanItems.map((item) => item.answer);
   } else {
     items = flags.map((item) => item.country);
   }
 }
 
 // Fetching the country flag data from flags.json
-fetch("countries.json")
+fetch("/gamemodes/countries.json")
   .then((response) => response.json())
   .then((data) => {
     flags = data;
@@ -39,10 +42,18 @@ fetch("countries.json")
   });
 
 // Fetching the US State flag data from us_states.json
-fetch("us_states.json")
+fetch("/gamemodes/us_states.json")
   .then((response) => response.json())
   .then((data) => {
     usStates = data;
+    updateItems();
+  });
+
+// Fetching Korea flag data from korea.json
+fetch("/gamemodes/korea.json")
+  .then((response) => response.json())
+  .then((data) => {
+    koreanItems = data;
     updateItems();
   });
 
@@ -145,17 +156,18 @@ function pickNewFlag() {
     const randomIndex = Math.floor(Math.random() * remainingUSStates.length);
     currentFlag = remainingUSStates[randomIndex];
     remainingUSStates.splice(randomIndex, 1);
-    document.querySelector(".flag-img").src = currentFlag.imageUrl;
-    clearSuggestions();
-    document.getElementById("country-input").focus();
+  } else if (gameMode === "korea") {
+    const randomIndex = Math.floor(Math.random() * koreanItems.length);
+    currentFlag = koreanItems[randomIndex];
+    koreanItems.splice(randomIndex, 1);
   } else {
     const randomIndex = Math.floor(Math.random() * remainingFlags.length);
     currentFlag = remainingFlags[randomIndex];
     remainingFlags.splice(randomIndex, 1);
-    document.querySelector(".flag-img").src = currentFlag.imageUrl;
-    clearSuggestions();
-    document.getElementById("country-input").focus();
   }
+  document.querySelector(".flag-img").src = currentFlag.imageUrl;
+  clearSuggestions();
+  document.getElementById("country-input").focus();
 }
 
 function checkGuess() {
@@ -167,10 +179,19 @@ function checkGuess() {
     isCorrect = checkCapitalGuess(input.value);
   } else if (gameMode === "usstates") {
     isCorrect = checkUSStateGuess(input.value);
+  } else if (gameMode === "korea") {
+    isCorrect = checkKoreanGuess(input.value);
   } else {
     isCorrect = checkCountryGuess(input.value);
   }
   processGuessResult(isCorrect, input);
+}
+
+function checkKoreanGuess(value) {
+  return (
+    value.toLowerCase() === currentFlag.answer.toLowerCase() ||
+    currentFlag.alternatives.includes(value)
+  );
 }
 
 function checkCapitalGuess(value) {
@@ -221,6 +242,9 @@ function handleCorrectGuess(input) {
   } else if (gameMode === "usstates") {
     document.getElementById("prevanswer").innerHTML =
       "Correct, the flag was: " + currentFlag.state;
+  } else if (gameMode === "korea") {
+    document.getElementById("prevanswer").innerHTML =
+      "Correct, the answer was: " + currentFlag.answer;
   } else {
     document.getElementById("prevanswer").innerHTML =
       "Correct, the flag was: " + currentFlag.country;
@@ -230,7 +254,10 @@ function handleCorrectGuess(input) {
 
   if (
     (gameMode === "usstates" && remainingUSStates.length > 0) ||
-    (gameMode !== "usstates" && remainingFlags.length > 0)
+    (gameMode === "korea" && koreanItems.length > 0) ||
+    (gameMode !== "usstates" &&
+      gameMode !== "korea" &&
+      remainingFlags.length > 0)
   ) {
     pickNewFlag();
   } else {
