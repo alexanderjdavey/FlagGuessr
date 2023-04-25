@@ -34,7 +34,7 @@ function updateItems() {
 }
 
 // Fetching the country flag data from flags.json
-fetch("/gamemodes/countries.json")
+fetch("countries.json")
   .then((response) => response.json())
   .then((data) => {
     flags = data;
@@ -42,7 +42,7 @@ fetch("/gamemodes/countries.json")
   });
 
 // Fetching the US State flag data from us_states.json
-fetch("/gamemodes/us_states.json")
+fetch("us_states.json")
   .then((response) => response.json())
   .then((data) => {
     usStates = data;
@@ -50,7 +50,7 @@ fetch("/gamemodes/us_states.json")
   });
 
 // Fetching Korea flag data from korea.json
-fetch("/gamemodes/korea.json")
+fetch("korea.json")
   .then((response) => response.json())
   .then((data) => {
     koreanItems = data;
