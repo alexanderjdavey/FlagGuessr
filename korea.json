@@ -2,7 +2,7 @@
   {
     "answer": "Seoul",
     "imageUrl": "images/korea/seoul.png",
-    "alternatives": ["서울"]
+    "alternatives": ["서울", "서울특별시"]
   },
   {
     "answer": "Ansan",
@@ -17,126 +17,141 @@
   {
     "answer": "Bucheon",
     "imageUrl": "images/korea/bucheon.png",
-    "alternatives": []
+    "alternatives": ["부천", "부천시"]
   },
   {
     "answer": "Busan",
     "imageUrl": "images/korea/busan.png",
-    "alternatives": []
+    "alternatives": ["부산", "부산광역시"]
   },
   {
     "answer": "Chuncheon",
     "imageUrl": "images/korea/chuncheon.png",
-    "alternatives": []
+    "alternatives": ["춘천", "춘천시"]
   },
   {
     "answer": "Daegu",
     "imageUrl": "images/korea/daegu.png",
-    "alternatives": []
+    "alternatives": ["대구", "대구광역시"]
   },
   {
     "answer": "Daejeon",
     "imageUrl": "images/korea/daejeon.png",
-    "alternatives": []
+    "alternatives": ["대전", "대전광역시"]
   },
   {
     "answer": "Gangneung",
     "imageUrl": "images/korea/gangneung.png",
-    "alternatives": []
+    "alternatives": ["강릉", "강릉시"]
   },
   {
     "answer": "Gimpo",
     "imageUrl": "images/korea/gimpo.png",
-    "alternatives": []
+    "alternatives": ["김포", "김포시"]
   },
   {
     "answer": "Goyang",
     "imageUrl": "images/korea/goyang.png",
-    "alternatives": []
+    "alternatives": ["고양", "고양시"]
   },
   {
     "answer": "Gwangju",
     "imageUrl": "images/korea/gwangju.png",
-    "alternatives": []
+    "alternatives": ["광주", "광주광역시"]
+  },
+  {
+    "answer": "Gumi",
+    "imageUrl": "images/korea/gumi.png",
+    "alternatives": ["구미", "구미시"]
   },
   {
     "answer": "Hwaseong",
     "imageUrl": "images/korea/hwaseong.png",
-    "alternatives": []
+    "alternatives": ["화성", "화성시"]
   },
   {
     "answer": "Incheon",
     "imageUrl": "images/korea/incheon.png",
-    "alternatives": []
+    "alternatives": ["인천", "인천광역시"]
   },
   {
     "answer": "Inje",
     "imageUrl": "images/korea/inje.png",
-    "alternatives": []
+    "alternatives": ["인제", "인제군"]
   },
   {
     "answer": "Jeju",
     "imageUrl": "images/korea/jeju.png",
-    "alternatives": []
+    "alternatives": ["제주", "제주시"]
+  },
+  {
+    "answer": "Jeonju",
+    "imageUrl": "images/korea/jeonju.png",
+    "alternatives": ["전주", "전주시"]
+  },
+  {
+    "answer": "Miryang",
+    "imageUrl": "images/korea/miryang.png",
+    "alternatives": ["밀양", "밀양시"]
   },
   {
     "answer": "Namyangju",
     "imageUrl": "images/korea/namyangju.png",
-    "alternatives": []
+    "alternatives": ["남양주", "남양주시"]
   },
   {
     "answer": "Samcheok",
     "imageUrl": "images/korea/samcheok.png",
-    "alternatives": []
+    "alternatives": ["삼척", "삼척시"]
   },
   {
     "answer": "Sejong",
     "imageUrl": "images/korea/sejong.png",
-    "alternatives": []
+    "alternatives": ["세종", "세종특별자치시"]
   },
   {
     "answer": "Seogwipo",
     "imageUrl": "images/korea/seogwipo.png",
-    "alternatives": []
+    "alternatives": ["서귀포", "서귀포시"]
   },
   {
     "answer": "Seongnam",
     "imageUrl": "images/korea/seongnam.png",
-    "alternatives": []
+    "alternatives": ["성남", "성남시"]
   },
   {
     "answer": "Sokcho",
     "imageUrl": "images/korea/sokcho.png",
-    "alternatives": []
+    "alternatives": ["속초", "속초시"]
   },
   {
     "answer": "Suwon",
     "imageUrl": "images/korea/suwon.png",
-    "alternatives": []
+    "alternatives": ["수원", "수원시"]
   },
   {
     "answer": "Ulsan",
     "imageUrl": "images/korea/ulsan.png",
-    "alternatives": []
+    "alternatives": ["울산", "울산광역시"]
   },
   {
     "answer": "Wonju",
     "imageUrl": "images/korea/wonju.png",
-    "alternatives": []
+    "alternatives": ["원주", "원주시"]
   },
   {
     "answer": "Yangyang",
     "imageUrl": "images/korea/yangyang.png",
-    "alternatives": []
+    "alternatives": ["양양", "양양군"]
   },
   {
     "answer": "Yeoju",
     "imageUrl": "images/korea/yeoju.png",
-    "alternatives": []
+    "alternatives": ["여주", "여주시"]
   },
   {
     "answer": "Yongin",
     "imageUrl": "images/korea/yongin.png",
-    "alternatives": []
+    "alternatives": ["용인", "용인시"]
   }
 ]

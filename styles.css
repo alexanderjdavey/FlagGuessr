@@ -3,13 +3,11 @@ body {
   text-align: center;
   background-color: #1a1a1a;
   color: #f2f2f2;
-  height: 98vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
-/* -- Autocomplete -- */
 
 .autocomplete {
   position: relative;
@@ -38,8 +36,6 @@ body {
 .suggestions div:hover {
   background-color: #151515;
 }
-
-/* -- Autocomplete -- */
 
 input:focus,
 textarea:focus {
@@ -203,10 +199,10 @@ body {
   border-radius: 10px;
   cursor: pointer;
   display: flex;
-  height: 240px;
+  height: 225px;
   flex-direction: row;
   position: relative;
-  width: 320px;
+  width: 300px;
 }
 
 .card:hover::before {
@@ -277,13 +273,13 @@ i {
 .card-image {
   align-items: center;
   display: flex;
-  height: 140px;
+  height: 100px;
   justify-content: center;
   overflow: hidden;
 }
 
 .card-image > i {
-  font-size: 6em;
+  font-size: 5em;
   opacity: 0.5;
 }
 
