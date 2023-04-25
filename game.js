@@ -2,6 +2,7 @@ let flags = [];
 let remainingFlags;
 let remainingUSStates = [];
 let koreanItems = [];
+let remainingKoreanItems = [];
 let currentFlag;
 let correctGuesses = 0;
 let incorrectGuesses = 0;
@@ -60,6 +61,7 @@ fetch("korea.json")
 function startGame() {
   remainingFlags = [...flags];
   remainingUSStates = [...usStates];
+  remainingKoreanItems = [...koreanItems];
   correctGuesses = 0;
   incorrectGuesses = 0;
   updateItems();
@@ -123,23 +125,35 @@ function updateIncorrectGuesses() {
 }
 
 function skipFlag() {
-  let remainingList =
-    gameMode === "usstates" ? remainingUSStates : remainingFlags;
+  let remainingList;
+
+  if (gameMode === "usstates") {
+    remainingList = remainingUSStates;
+  } else if (gameMode === "korea") {
+    remainingList = remainingKoreanItems;
+  } else {
+    remainingList = remainingFlags;
+  }
 
   if (remainingList.length > 0) {
     incorrectGuesses++;
     document.getElementById("country-input").style.borderBottomColor =
       "#232323";
+
     if (gameMode === "capital") {
       document.getElementById("prevanswer").innerHTML =
         "The capital of " + currentFlag.country + " is " + currentFlag.capital;
     } else if (gameMode === "usstates") {
       document.getElementById("prevanswer").innerHTML =
         "The correct answer was " + currentFlag.state;
+    } else if (gameMode === "korea") {
+      document.getElementById("prevanswer").innerHTML =
+        "The correct answer was " + currentFlag.answer;
     } else {
       document.getElementById("prevanswer").innerHTML =
         "The flag was: " + currentFlag.country;
     }
+
     document.getElementById("prevanswer").style.color = "#d95d55";
     updateIncorrectGuesses();
     pickNewFlag();
@@ -157,9 +171,9 @@ function pickNewFlag() {
     currentFlag = remainingUSStates[randomIndex];
     remainingUSStates.splice(randomIndex, 1);
   } else if (gameMode === "korea") {
-    const randomIndex = Math.floor(Math.random() * koreanItems.length);
-    currentFlag = koreanItems[randomIndex];
-    koreanItems.splice(randomIndex, 1);
+    const randomIndex = Math.floor(Math.random() * remainingKoreanItems.length);
+    currentFlag = remainingKoreanItems[randomIndex];
+    remainingKoreanItems.splice(randomIndex, 1);
   } else {
     const randomIndex = Math.floor(Math.random() * remainingFlags.length);
     currentFlag = remainingFlags[randomIndex];
