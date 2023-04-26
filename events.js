@@ -2,8 +2,8 @@
 document.getElementById("reset-button").addEventListener("click", resetGame);
 document.getElementById("skip-button").addEventListener("click", skipFlag);
 // country input must be defined like this so it is not called twice on clicking autocorrect suggestions
-document.getElementById("country-input").addEventListener("keyup", (e) => {
-  if (e.key === "Enter") {
+document.getElementById("country-input").addEventListener("keydown", (e) => {
+  if (e.key === "Enter" && !suggestions.contains(document.activeElement)) {
     checkGuess();
   }
 });
@@ -69,11 +69,18 @@ countryInput.addEventListener("input", (e) => {
   if (filteredItems.length > 0) {
     filteredItems.forEach((item) => {
       const suggestion = document.createElement("div");
+      suggestion.setAttribute("tabindex", "0");
       suggestion.textContent = item;
-      suggestion.addEventListener("click", () => {
+      const selectSuggestion = () => {
         countryInput.value = item;
         suggestions.style.display = "none";
         checkGuess();
+      };
+      suggestion.addEventListener("click", selectSuggestion);
+      suggestion.addEventListener("keydown", (e) => {
+        if (e.key === "Enter") {
+          selectSuggestion();
+        }
       });
 
       suggestions.appendChild(suggestion);

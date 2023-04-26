@@ -125,6 +125,7 @@ function updateIncorrectGuesses() {
 }
 
 function skipFlag() {
+  countryInput.placeholder = "Type the country name";
   let remainingList;
 
   if (gameMode === "usstates") {
@@ -240,6 +241,7 @@ function processGuessResult(isCorrect, input) {
   } else {
     handleIncorrectGuess(input);
   }
+  input.focus();
 }
 
 function handleCorrectGuess(input) {
@@ -289,6 +291,9 @@ function handleCorrectGuess(input) {
 
 function handleIncorrectGuess(input) {
   input.style.borderBottomColor = "#cf2929";
+  input.value = "";
+  input.placeholder = "Try again...";
+  input.focus;
   if (gameMode === "hard") {
     endGame();
   }

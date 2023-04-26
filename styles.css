@@ -34,7 +34,13 @@ body {
 }
 
 .suggestions div:hover {
-  background-color: #151515;
+  transition: background-color 0.3s ease;
+  background-color: #737373;
+}
+.suggestions div:focus {
+  transition: background-color 0.3s ease;
+  background-color: #737373;
+  outline: none;
 }
 
 input:focus,
