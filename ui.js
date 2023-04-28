@@ -59,11 +59,13 @@ function inputUI() {
   // Sets the input box text differently if its capital mode
   if (gameMode === "capital") {
     document.getElementById("country-input").placeholder =
-      "Type the capital city";
+      "Guess the capital city";
   } else if (gameMode === "usstates") {
-    document.getElementById("country-input").placeholder = "Type the US State";
+    document.getElementById("country-input").placeholder = "Guess the US State";
+  } else if (gameMode === "korea") {
+    document.getElementById("country-input").placeholder = "Guess the Korean flag";
   } else {
     document.getElementById("country-input").placeholder =
-      "Type the country name";
+      "Guess the country name";
   }
 }
